@@ -1,0 +1,137 @@
+{
+  "id": "2026-08-25-32EDDB85",
+  "date": "2026-08-25",
+  "dateLabel": "25 August 2026",
+  "student": "Eugenia Krekker",
+  "meetingUuid": "32EDDB85-E24C-4AE3-8EB5-DFFDCC709F35",
+  "title": "Clear Questions, Strong Descriptions",
+  "subtitle": "A more challenging revision of word order, frequency, routines and personality evidence",
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "summary": "No new grammar topic. Use transcript-based sentence problems, make the work more difficult, include harder reading and listening within the lesson topics, add a five-exchange situational conversation, and provide a short on-platform writing task."
+  },
+  "lessonNotes": [
+    "Question word order was the main difficulty: use the question word, then the auxiliary, then the subject and the base verb.",
+    "Frequency words such as always, usually and often normally go before the main verb, but after BE. In questions, they usually come after the subject.",
+    "Present Simple describes routines and repeated actions. Present Continuous describes what is happening now or a temporary situation around now.",
+    "A personality adjective becomes clearer when you support it with a reason or example: She is active because she goes jogging every day.",
+    "The lesson briefly introduced first impressions and icebreakers. Verb + preposition and phrasal verbs were only previews for the next lesson, so they are not tested here."
+  ],
+  "grammar": [
+    {
+      "title": "Present Simple questions",
+      "rule": "Use question word + do/does + subject + base verb. Use does with he, she and it; after does, the main verb stays in the base form.",
+      "examples": ["Why does your son worry about school?", "How often does Kelly visit the children's home?", "Do you always wake up early?"]
+    },
+    {
+      "title": "BE and Present Continuous questions",
+      "rule": "When BE is already the verb or auxiliary, move it before the subject. Present Continuous uses question word + am/is/are + subject + verb-ing.",
+      "examples": ["Is she confident?", "What is Kelly doing now?", "Are you working with horses?"]
+    },
+    {
+      "title": "Adverbs of frequency",
+      "rule": "Put always, usually, often and never before an ordinary main verb, but after BE. In a Present Simple question, put the frequency word after the subject. Usually is flexible, but the middle position is the safest choice.",
+      "examples": ["She often visits the children's home.", "She is usually easygoing.", "Does Kelly often visit the children's home?", "I don't usually work at weekends."]
+    },
+    {
+      "title": "Routine or temporary situation?",
+      "rule": "Use Present Simple for repeated routines and schedules. Use Present Continuous for an action happening now or a temporary change around the present period.",
+      "examples": ["She goes there once a week.", "She is packing presents now.", "She is usually a ballet dancer, but this week she is doing contemporary dance."]
+    },
+    {
+      "title": "Trait + evidence",
+      "rule": "Do not stop after the adjective. Add because and a complete reason, or give a concrete example that proves the description.",
+      "examples": ["She is strong because she can jump high.", "He is arrogant because he thinks he knows more than everyone else.", "My friend is easygoing. For example, she is happy to change plans."]
+    }
+  ],
+  "remember": "For a Present Simple question, build the frame first: question word + do/does + subject + base verb. Then add frequency and the rest of the sentence.",
+  "watchOut": "Do not mix question patterns: “What is Kelly doing?” and “What does Kelly do?” are correct, but “What does Kelly doing?” is not.",
+  "vocabulary": [
+    { "word": "easygoing", "meaning": "relaxed and willing to accept changes", "example": "My friend is easygoing because she does not mind changing plans." },
+    { "word": "big-hearted", "meaning": "kind and generous", "example": "Kelly is big-hearted; she packs presents for children." },
+    { "word": "confident", "meaning": "sure of your own ability", "example": "She is confident about the competition." },
+    { "word": "arrogant", "meaning": "believing you are better or know more than other people", "example": "He sounds arrogant because he never listens to advice." },
+    { "word": "annoying", "meaning": "making someone feel slightly angry or impatient", "example": "Cleaning requests can be annoying for the children." },
+    { "word": "sensitive", "meaning": "easily affected by feelings or changes", "example": "The horse is sensitive and reacts when the rider makes a mistake." },
+    { "word": "shiny", "meaning": "smooth and reflecting light", "example": "The horse has shiny hair." },
+    { "word": "contemporary", "meaning": "modern or belonging to the present time", "example": "This week she is doing contemporary dance." },
+    { "word": "first impression", "meaning": "the first opinion you form about someone", "example": "A calm introduction can create a good first impression." },
+    { "word": "good fit", "meaning": "suitable for a team, role or situation", "example": "Her experience suggests that she is a good fit for the team." },
+    { "word": "icebreaker", "meaning": "a question or activity that helps people start talking", "example": "The manager used an icebreaker at the beginning of the meeting." }
+  ],
+  "wordOrder": [
+    { "q": "Choose the correctly ordered question.", "opt": ["How often does Kelly visit the children's home?", "How often Kelly does visit the children's home?", "How often visits Kelly the children's home?"], "a": "How often does Kelly visit the children's home?", "why": "How often + does + Kelly + base verb." },
+    { "q": "Choose the correct question about an action happening now.", "opt": ["What is Kelly doing now?", "What Kelly is doing now?", "What does Kelly doing now?"], "a": "What is Kelly doing now?", "why": "Present Continuous: what + is + subject + verb-ing." },
+    { "q": "Choose the correct question.", "opt": ["Why does your son worry so much about school?", "Why your son worries so much about school?", "Why does your son worries so much about school?"], "a": "Why does your son worry so much about school?", "why": "After does, use the base verb worry." },
+    { "q": "Choose the natural frequency question.", "opt": ["Does she usually watch TV after work?", "Usually does she watch TV after work?", "Does usually she watches TV after work?"], "a": "Does she usually watch TV after work?" },
+    { "q": "Choose the correct sentence about a repeated action.", "opt": ["She goes to the children's home once a week.", "She is going to the children's home once a week.", "She go to the children's home once a week."], "a": "She goes to the children's home once a week.", "why": "Once a week describes a repeated routine." },
+    { "q": "Choose the best temporary-exception sentence.", "opt": ["She usually does ballet, but this week she is doing contemporary dance.", "She is usually doing ballet, but this week she does contemporary dance.", "She usually do ballet, but this week doing contemporary dance."], "a": "She usually does ballet, but this week she is doing contemporary dance." },
+    { "q": "Choose the correct negative sentence.", "opt": ["He never listens to me.", "He doesn't never listen to me.", "He never is listen to me."], "a": "He never listens to me.", "why": "Never already carries a negative meaning." },
+    { "q": "Choose the complete description with evidence.", "opt": ["She is sensitive because she reacts when the rider makes a mistake.", "She sensitive because rider mistake.", "Because she is sensitive reacts the horse."], "a": "She is sensitive because she reacts when the rider makes a mistake." },
+    { "q": "Which question asks about a person's usual activity or job?", "opt": ["What does she do?", "What is she doing now?", "What she does?"], "a": "What does she do?" },
+    { "q": "Which question asks about a present action?", "opt": ["Are you working on an important project?", "Do you working on an important project?", "You are work on an important project?"], "a": "Are you working on an important project?" }
+  ],
+  "conversation": [
+    { "speaker": "Maya", "line": "Hi, I don't think we've met. I'm Maya from the training team.", "q": "Choose the best reply.", "opt": ["Nice to meet you, Maya. I'm Eugenia.", "Where you work for how years?", "I don't meet."], "a": "Nice to meet you, Maya. I'm Eugenia." },
+    { "speaker": "Maya", "line": "Nice to meet you too. What do you do?", "q": "Choose the reply that matches the question.", "opt": ["I work with horses.", "I'm talking to you right now.", "Yes, I do."], "a": "I work with horses." },
+    { "speaker": "Maya", "line": "That sounds interesting. What is a normal day like for you?", "q": "Choose the clearest answer.", "opt": ["I usually start early and check the horses before breakfast.", "I am usually start early and checking horses.", "Do I start early?"], "a": "I usually start early and check the horses before breakfast." },
+    { "speaker": "Maya", "line": "What are you working on this week?", "q": "Choose the answer about a temporary current project.", "opt": ["This week, I am preparing a horse for a competition.", "Every week I am prepare competition.", "I prepared usually a horse."], "a": "This week, I am preparing a horse for a competition." },
+    { "speaker": "Maya", "line": "Your work sounds demanding. What kind of person is good at it?", "q": "Choose the answer with a trait and evidence.", "opt": ["A patient and sensitive person is good at it because horses react to small changes.", "Sensitive person because horse.", "Yes, horses are."], "a": "A patient and sensitive person is good at it because horses react to small changes." }
+  ],
+  "reading": {
+    "title": "The New Trainer's First Week",
+    "level": "A2+ / early B1",
+    "text": "On Monday morning, Lena arrives at Greenfield Riding Centre for her first week as an assistant trainer. She has ten years of experience with horses, but she has never worked with this team before. She wants to make a good first impression, so she arrives early, introduces herself clearly and asks where she can help. At first, Daniel, the head trainer, seems quiet and serious. Lena wonders if he is unfriendly, but she does not make a quick decision.\n\nDaniel usually begins each morning by checking every horse and writing a short plan for the day. This week, however, he is preparing two young horses for an important competition, so the normal schedule is changing. Lena notices that he is always moving between the stable and the training area. He does not speak much because he is concentrating, not because he is arrogant. When a young rider makes a mistake, Daniel explains the problem calmly and shows her a safer method. Lena begins to see that he is patient and big-hearted, although her first impression was different.\n\nDuring lunch, another colleague uses an icebreaker. She asks Lena, “What is the most surprising thing about working with horses?” Lena answers that every horse has a different personality. She describes one horse as confident because it enters new places without fear. Another horse is sensitive: it sometimes refuses to work when the rider gives unclear signals. Lena explains that calling a horse “difficult” is not enough; a trainer must give an example and look for the reason behind the behaviour.\n\nLater, Daniel asks Lena, “How often do you train young horses?” Lena almost says, “How often you train,” but she stops and answers the question carefully. She says that she usually trains them twice a week, but this month she is working with them more often. Daniel smiles and tells her that clear communication is as important as technical experience. By Friday, Lena feels more relaxed. She has learned that a first impression can be useful, but it is not always complete. A person's repeated actions often tell a more accurate story than one short meeting.",
+    "questions": [
+      { "q": "Why does Lena arrive early on Monday?", "opt": ["She wants to make a good first impression.", "She thinks Daniel is arrogant.", "She has no experience with horses."], "a": "She wants to make a good first impression." },
+      { "q": "Why is the normal schedule changing this week?", "opt": ["Daniel is preparing young horses for a competition.", "The centre is closing.", "Lena is refusing to work."], "a": "Daniel is preparing young horses for a competition." },
+      { "q": "What changes Lena's first impression of Daniel?", "opt": ["She sees him explain a mistake calmly and safely.", "He asks many personal questions.", "He leaves work early."], "a": "She sees him explain a mistake calmly and safely." },
+      { "q": "What is the icebreaker in the reading?", "opt": ["A question about surprising things in horse work", "A competition between trainers", "A written grammar test"], "a": "A question about surprising things in horse work" },
+      { "q": "Why can one horse be described as sensitive?", "opt": ["It reacts to unclear signals and may refuse to work.", "It always enters new places without fear.", "It has shiny hair."], "a": "It reacts to unclear signals and may refuse to work." },
+      { "q": "Which sentence shows routine plus a temporary change?", "opt": ["She usually trains them twice a week, but this month she is working with them more often.", "Lena arrives on Monday morning.", "Daniel smiles."], "a": "She usually trains them twice a week, but this month she is working with them more often." },
+      { "q": "What is the main message of the final paragraph?", "opt": ["Repeated actions can give better evidence than one first meeting.", "First impressions are always correct.", "Technical experience is the only important skill."], "a": "Repeated actions can give better evidence than one first meeting." }
+    ]
+  },
+  "listening": {
+    "title": "Who's who in the office",
+    "source": "British Council LearnEnglish",
+    "level": "A2",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/whos-who-office",
+    "instructions": "Open the British Council lesson, complete its preparation activity, listen twice without reading the transcript, then answer the questions here.",
+    "questions": [
+      { "q": "Who is new in the department?", "opt": ["Yuki", "Jani", "Luciana"], "a": "Yuki" },
+      { "q": "How does Jani identify Luciana?", "opt": ["She has short, dark hair.", "She is next to the printer.", "She is wearing a green shirt."], "a": "She has short, dark hair." },
+      { "q": "What is Ian doing during the conversation?", "opt": ["He is talking on the phone.", "He is writing new orders.", "He is fixing a printer."], "a": "He is talking on the phone." },
+      { "q": "Who is responsible for internal IT systems?", "opt": ["Maria", "Sebastian", "Yuki"], "a": "Maria" },
+      { "q": "Why should Yuki talk to Sebastian?", "opt": ["He can help set up email access on her phone.", "He manages new orders.", "He is the marketing director."], "a": "He can help set up email access on her phone." },
+      { "q": "Which phrase shows that Yuki plans to meet someone later?", "opt": ["I'll introduce myself to him later.", "Who are those people over there?", "I should probably be taking notes!"], "a": "I'll introduce myself to him later." }
+    ]
+  },
+  "writing": {
+    "prompt": "Describe one person from your family or circle of friends in 70–100 words. Use at least three personality adjectives. For each adjective, give a reason or real example. Include one frequency expression and one Present Continuous sentence about a temporary situation now.",
+    "checklist": ["3 personality adjectives", "Evidence with because or for example", "1 frequency expression", "1 temporary Present Continuous sentence", "70–100 words"]
+  },
+  "quiz": [
+    { "q": "Choose the correct question.", "opt": ["How often does she visit the stable?", "How often she visits the stable?", "How often does she visits the stable?"], "a": "How often does she visit the stable?" },
+    { "q": "Choose the correct Present Continuous question.", "opt": ["What is Daniel preparing this week?", "What does Daniel preparing this week?", "What Daniel is prepare this week?"], "a": "What is Daniel preparing this week?" },
+    { "q": "Which is the safest position for usually?", "opt": ["I don't usually work at weekends.", "I don't work usually at weekends always.", "I usually am don't work at weekends."], "a": "I don't usually work at weekends." },
+    { "q": "Choose the correct sentence with BE.", "opt": ["She is usually easygoing.", "She usually is easygoing always.", "She does usually easygoing."], "a": "She is usually easygoing." },
+    { "q": "Which describes a routine?", "opt": ["She trains twice a week.", "She is training right now.", "She is training more often this month."], "a": "She trains twice a week." },
+    { "q": "Which describes a temporary current situation?", "opt": ["This month, she is working with young horses.", "She works every Monday.", "She often rides after work."], "a": "This month, she is working with young horses." },
+    { "q": "Choose the correct negative.", "opt": ["He never listens to advice.", "He doesn't never listen to advice.", "He never doesn't listens to advice."], "a": "He never listens to advice." },
+    { "q": "After does, which form is correct?", "opt": ["Does she worry?", "Does she worries?", "Does she worrying?"], "a": "Does she worry?" },
+    { "q": "Which question asks about a person's job or usual activity?", "opt": ["What does she do?", "What is she doing?", "What she doing?"], "a": "What does she do?" },
+    { "q": "Which question asks about the action now?", "opt": ["What is she doing?", "What does she do?", "What she does now?"], "a": "What is she doing?" },
+    { "q": "Choose the description with real evidence.", "opt": ["He is generous because he gives his time to help new colleagues.", "He generous very because help.", "He is generous and because."], "a": "He is generous because he gives his time to help new colleagues." },
+    { "q": "Which word means relaxed and flexible?", "opt": ["easygoing", "arrogant", "annoying"], "a": "easygoing" },
+    { "q": "Which word describes someone who thinks they know better than everyone?", "opt": ["arrogant", "sensitive", "big-hearted"], "a": "arrogant" },
+    { "q": "What is a first impression?", "opt": ["The first opinion you form about someone", "A repeated weekly action", "A difficult grammar question"], "a": "The first opinion you form about someone" },
+    { "q": "What is an icebreaker?", "opt": ["A question or activity that starts conversation", "A negative frequency word", "A horse-training tool"], "a": "A question or activity that starts conversation" },
+    { "q": "Why is Daniel quiet in the reading?", "opt": ["He is concentrating on competition preparation.", "He is unfriendly and arrogant.", "He does not understand Lena."], "a": "He is concentrating on competition preparation." },
+    { "q": "What lesson does Lena learn about first impressions?", "opt": ["They can be incomplete.", "They are always accurate.", "They matter more than repeated actions."], "a": "They can be incomplete." },
+    { "q": "In the listening, who works in communications?", "opt": ["Sebastian", "Maria", "Luciana"], "a": "Sebastian" },
+    { "q": "Choose the correct combined sentence.", "opt": ["She usually does ballet, but this week she is doing contemporary dance.", "She is usually do ballet, but this week she does contemporary dance.", "She usually doing ballet, but this week is do contemporary dance."], "a": "She usually does ballet, but this week she is doing contemporary dance." },
+    { "q": "Choose the correctly ordered friendly question.", "opt": ["What do you enjoy doing at weekends?", "What you do enjoy at weekends?", "What do enjoy you at weekends?"], "a": "What do you enjoy doing at weekends?" }
+  ]
+}
