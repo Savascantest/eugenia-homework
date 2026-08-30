@@ -1,0 +1,287 @@
+{
+  "id": "2026-08-29-A303F12D",
+  "student": "Eugenia",
+  "date": "2026-08-29",
+  "dateLabel": "29 Aug 2026",
+  "meetingUuid": "A303F12D-9047-4445-A684-A06E84C4EB65",
+  "title": "Hobbies, Preferences & Natural Small Talk",
+  "subtitle": "A manageable new lesson on hobby vocabulary, preference strength and useful verb–preposition partnerships.",
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "summary": "Same approved level and shell; slightly lighter workload; all questions, reading and listening are new; final French-word discussion excluded."
+  },
+  "sections": [
+    {
+      "id": "notes",
+      "label": "Lesson Notes",
+      "title": "From first impressions to unusual hobbies",
+      "intro": "We explored how small talk moves naturally from first impressions to interests. Unusual hobbies give you memorable vocabulary and easy follow-up questions.",
+      "cards": [
+        {
+          "title": "Keep the conversation moving",
+          "text": "React, give one detail, then ask a related question."
+        },
+        {
+          "title": "Learn phrases, not isolated words",
+          "text": "Preference expressions and verb–preposition pairs are easier to use when stored as complete chunks."
+        }
+      ]
+    },
+    {
+      "id": "grammar",
+      "label": "Grammar",
+      "title": "Preference strength",
+      "intro": "Dilbilgisi açıklamaları Türkçedir; İngilizce örnekler anlam farkını gösterir.",
+      "cards": [
+        {
+          "title": "Güçlü olumlu",
+          "text": "be crazy about ve love güçlü bir ilgiyi gösterir.",
+          "examples": [
+            "I’m crazy about photography.",
+            "I love collecting old cards."
+          ]
+        },
+        {
+          "title": "Orta ve hafif olumlu",
+          "text": "really like açıkça olumlu ve daha güçlüdür. quite like olumlu ama daha ölçülüdür.",
+          "examples": [
+            "I really like birdwatching.",
+            "I quite like puzzles."
+          ]
+        },
+        {
+          "title": "Nötrden güçlü olumsuza",
+          "text": "don’t mind nötr kabul, can’t stand ve hate güçlü olumsuzluk gösterir.",
+          "examples": [
+            "I don’t mind juggling.",
+            "I can’t stand noisy events."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "label": "Vocabulary",
+      "title": "Unusual hobbies",
+      "intro": [
+        {
+          "title": "Collecting",
+          "text": "numismatics; memorabilia; Coca-Cola cans; stickers; cards"
+        },
+        {
+          "title": "Outdoor and skill hobbies",
+          "text": "birdwatching; noodling; toy voyaging; juggling; photography"
+        },
+        {
+          "title": "Useful partnerships",
+          "text": "listen to, look at, come up to, wait for, spend time on, talk to/with somebody"
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "label": "Practice",
+      "title": "Build natural preference sentences",
+      "questions": [
+        {
+          "q": "A strong positive preference:",
+          "opt": [
+            "I’m crazy about photography.",
+            "I don’t mind photography.",
+            "I can’t stand photography."
+          ],
+          "a": "I’m crazy about photography."
+        },
+        {
+          "q": "A mild positive preference:",
+          "opt": [
+            "I quite like puzzles.",
+            "I hate puzzles.",
+            "I am puzzle."
+          ],
+          "a": "I quite like puzzles."
+        },
+        {
+          "q": "Choose the correct phrase.",
+          "opt": [
+            "listen to a podcast",
+            "listen a podcast",
+            "listen at a podcast"
+          ],
+          "a": "listen to a podcast"
+        },
+        {
+          "q": "She spends time ___ her collection.",
+          "opt": [
+            "on",
+            "to",
+            "at"
+          ],
+          "a": "on"
+        },
+        {
+          "q": "Which is stronger?",
+          "opt": [
+            "really like",
+            "quite like",
+            "They are always identical."
+          ],
+          "a": "really like"
+        }
+      ]
+    },
+    {
+      "id": "reading",
+      "label": "Reading",
+      "title": "A new B1 reading",
+      "readings": [
+        {
+          "level": "A2+/early B1",
+          "title": "A Hobby with a Story",
+          "text": "When people meet for the first time, they often ask about work, travel or weekend plans. Hobbies can create a more personal conversation because they reveal what someone notices and values. Common interests such as photography are easy to explain, but an unusual hobby can lead to better follow-up questions.\n\nMarta, for example, is interested in numismatics, the study and collection of coins. She does not simply look for expensive objects. She enjoys discovering why a coin was produced, whose image appears on it and how it travelled from one owner to another. She spends time on research and talks to other collectors online. Each coin becomes a small historical document rather than just a piece of metal.\n\nHer friend Daniel is crazy about birdwatching. He wakes early, waits for quiet moments and listens to birds before trying to see them. Photography is part of his hobby, but he never gets too close to an animal for a picture. Marta quite likes outdoor activities, so she sometimes joins him, although she prefers the slower detective work of researching a collection.\n\nTheir hobbies are different, yet both require patience and careful observation. When they meet new people, they explain one interesting detail instead of giving a long lecture. Then they ask, “What are you interested in?” This simple question turns an unusual hobby into natural small talk.",
+          "questions": [
+            {
+              "q": "Why can hobbies improve small talk?",
+              "opt": [
+                "They reveal personal interests.",
+                "They end every conversation.",
+                "They are always expensive."
+              ],
+              "a": "They reveal personal interests."
+            },
+            {
+              "q": "What interests Marta about coins?",
+              "opt": [
+                "Their history and journey",
+                "Only their price",
+                "Their size only"
+              ],
+              "a": "Their history and journey"
+            },
+            {
+              "q": "How does Daniel begin birdwatching?",
+              "opt": [
+                "He listens and waits quietly.",
+                "He runs toward birds.",
+                "He stays indoors."
+              ],
+              "a": "He listens and waits quietly."
+            },
+            {
+              "q": "How are the hobbies similar?",
+              "opt": [
+                "Both need patience and observation.",
+                "Both need loud music.",
+                "Both involve cooking."
+              ],
+              "a": "Both need patience and observation."
+            },
+            {
+              "q": "What conversation strategy do they use?",
+              "opt": [
+                "Give one detail and ask a question.",
+                "Give a long lecture.",
+                "Avoid follow-up questions."
+              ],
+              "a": "Give one detail and ask a question."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "listening",
+      "label": "Listening",
+      "title": "Preferences and activities",
+      "intro": "A new listening that directly matches preference language.",
+      "external": {
+        "title": "Love It or Hate It — Free-time activities",
+        "level": "B1",
+        "url": "https://elllo.org/english/1501/1504-MegTodd-FreeTime-Gerunds.htm",
+        "instructions": "Listen for activities and the strength of each speaker’s opinion. On the second listen, note the expressions that introduce preferences."
+      },
+      "questions": [
+        {
+          "q": "What should you identify first?",
+          "opt": [
+            "Activities and general opinions",
+            "Every spelling detail",
+            "Only names"
+          ],
+          "a": "Activities and general opinions"
+        },
+        {
+          "q": "What should you notice next?",
+          "opt": [
+            "Preference expressions",
+            "Possessive apostrophes",
+            "Directions"
+          ],
+          "a": "Preference expressions"
+        },
+        {
+          "q": "Which phrase signals a strong dislike?",
+          "opt": [
+            "can’t stand",
+            "quite like",
+            "don’t mind"
+          ],
+          "a": "can’t stand"
+        }
+      ]
+    },
+    {
+      "id": "quiz",
+      "label": "Final Quiz",
+      "title": "Quick final check",
+      "questions": [
+        {
+          "q": "Choose the stronger positive.",
+          "opt": [
+            "really like",
+            "quite like",
+            "don’t mind"
+          ],
+          "a": "really like"
+        },
+        {
+          "q": "Choose the neutral expression.",
+          "opt": [
+            "don’t mind",
+            "hate",
+            "be crazy about"
+          ],
+          "a": "don’t mind"
+        },
+        {
+          "q": "Correct partnership:",
+          "opt": [
+            "wait for a friend",
+            "wait a friend",
+            "wait to a friend"
+          ],
+          "a": "wait for a friend"
+        },
+        {
+          "q": "Numismatics is connected with ___.",
+          "opt": [
+            "coins",
+            "birds",
+            "photographs only"
+          ],
+          "a": "coins"
+        },
+        {
+          "q": "Choose natural small talk.",
+          "opt": [
+            "I enjoy photography. What are you interested in?",
+            "My hobby. Stop.",
+            "Interested you what?"
+          ],
+          "a": "I enjoy photography. What are you interested in?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import LatestHomework from './LatestHomework';
 import Homework20260825 from './Homework20260825';
+import CurrentLesson from './CurrentLesson';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -928,7 +929,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework3');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework4');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1009,8 +1010,12 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework4') {
+    return <CurrentLesson student="Eugenia" url={`${import.meta.env.BASE_URL}homeworks/2026-08-29-A303F12D/homework.json`} onArchive={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} />;
+  }
+
   if (homeworkVersion === 'homework3') {
-    return <Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0 }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} />;
+    return <><div style={{position:'sticky',top:0,zIndex:100,padding:8,textAlign:'center',background:'#111827'}}><button onClick={()=>setHomeworkVersion('homework4')} style={{padding:'10px 16px',border:0,borderRadius:10,fontWeight:800}}>Return to current lesson · 29 Aug</button></div><Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0 }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} /></>;
   }
 
   if (homeworkVersion === 'homework2') {
