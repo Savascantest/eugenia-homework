@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import LatestHomework from './LatestHomework';
 import Homework20260825 from './Homework20260825';
-import CurrentLesson from './CurrentLesson';
+import Homework20260829 from './Homework20260829';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -1011,7 +1011,7 @@ export default function App() {
   };
 
   if (homeworkVersion === 'homework4') {
-    return <CurrentLesson student="Eugenia" url={`${import.meta.env.BASE_URL}homeworks/2026-08-29-A303F12D/homework.json`} onArchive={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} />;
+    return <Homework20260829 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
   }
 
   if (homeworkVersion === 'homework3') {
