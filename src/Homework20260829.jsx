@@ -90,7 +90,7 @@ function WritingTask({ task, onComplete, saved }) {
   );
 }
 
-export default function Homework20260829({ onOpenHomework3, onOpenHomework2, onOpenHomework1, darkMode, toggleDarkMode }) {
+export default function Homework20260829({ onOpenLatest, onOpenHomework3, onOpenHomework2, onOpenHomework1, darkMode, toggleDarkMode }) {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
   const [tab, setTab] = useState('notes');
@@ -141,7 +141,8 @@ export default function Homework20260829({ onOpenHomework3, onOpenHomework2, onO
         <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col lg:flex-row lg:items-center justify-between gap-3">
           <div className="flex items-center gap-3"><div className="p-2 rounded-xl bg-slate-900 dark:bg-blue-600 text-white"><BookOpen className="w-5 h-5"/></div><div><div className="font-extrabold">Eugenia's Homework Workspace</div><div className="text-xs text-stone-500 dark:text-slate-400">Homework 4 · {data.dateLabel}</div></div></div>
           <div className="flex gap-2 items-center flex-wrap">
-            <button className="px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-bold">Homework 4 <span className="ml-1 text-[10px] uppercase bg-white/20 px-2 py-1 rounded-full">Latest</span></button>
+            <button onClick={onOpenLatest} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-bold">Homework 5 <span className="ml-1 text-[10px] uppercase bg-white/20 px-2 py-1 rounded-full">Latest</span></button>
+            <button className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 4 · 29 Aug</button>
             <button onClick={onOpenHomework3} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 3 · 25 Aug</button>
             <button onClick={onOpenHomework2} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 2 · 21 Aug</button>
             <button onClick={onOpenHomework1} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 1 · 18 Aug</button>

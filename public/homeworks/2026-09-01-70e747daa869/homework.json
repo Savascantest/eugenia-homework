@@ -1,0 +1,280 @@
+{
+  "id": "2026-09-01-70e747daa869",
+  "date": "2026-09-01",
+  "dateLabel": "1 September 2026",
+  "meetingKeyHash": "70e747daa869c84c1d9508422b1709ab33c137d491e6c5e79e9b5b1ae4f05de3",
+  "title": "Stative Verbs in Everyday English",
+  "subtitle": "A practical guide to states, changing meanings and natural -ing choices, with a light review of hobbies and preference language.",
+  "teacherNote": {
+    "detected": true,
+    "applied": true,
+    "summary": "The 29 August lesson is incorporated, the approved original platform style is preserved, stative verb coverage is broad, flashcards are English-only, and day-to-day state/action contrasts are interactive."
+  },
+  "sourceLessons": [
+    { "date": "2026-08-29", "meetingKeyHash": "304f4b9683d8bf5a9d8da2087f26654c5ad97c0bda2850eb88e7efed5c188e72" },
+    { "date": "2026-09-01", "meetingKeyHash": "70e747daa869c84c1d9508422b1709ab33c137d491e6c5e79e9b5b1ae4f05de3" }
+  ],
+  "lessonNotes": [
+    "A stative verb describes a condition, thought, feeling, sense, possession or relationship rather than an action in progress.",
+    "Stative meaning normally uses a simple tense: Mia knows the answer, Noah wants a break, and the camera belongs to Priya.",
+    "Some verbs can be stative or dynamic. The meaning decides the tense: I think it is useful expresses an opinion, while I am thinking about the problem describes a mental activity now.",
+    "Preference language from the previous lesson connects naturally with this topic: love, like, hate, prefer and want are usually stative, while enjoy is commonly followed by a noun or an -ing activity.",
+    "Useful hobby language remains in the practice: be crazy about, really like, quite like, do not mind, cannot stand, numismatics, birdwatching, memorabilia and photography."
+  ],
+  "grammar": [
+    {
+      "title": "The core pattern",
+      "rule": "Use the present simple for a state that is true now or generally true. Do not add -ing just because the state is true at this moment.",
+      "examples": ["Lena wants some water.", "Omar understands the rule.", "This key belongs to Rosa."]
+    },
+    {
+      "title": "Thoughts, opinions and knowledge",
+      "rule": "Know, believe, understand, remember, mean, agree, doubt and think when it means have an opinion are usually stative.",
+      "examples": ["I believe your story.", "Kai remembers the address.", "We think the plan is sensible."]
+    },
+    {
+      "title": "Feelings, needs and preferences",
+      "rule": "Love, like, dislike, hate, prefer, want, need, wish and mind usually describe an internal state, so the simple form is normal.",
+      "examples": ["Sara prefers quiet cafés.", "Ben needs more time.", "I do not mind puzzles."]
+    },
+    {
+      "title": "Senses and appearance",
+      "rule": "See, hear, smell, taste, feel, seem, appear, look and sound are often stative when they describe passive perception or appearance.",
+      "examples": ["The soup tastes salty.", "That idea sounds useful.", "The jacket looks expensive."]
+    },
+    {
+      "title": "Possession, connection and composition",
+      "rule": "Have, own, possess, belong, contain, include, consist, involve and depend usually describe possession or relationships rather than actions.",
+      "examples": ["Ava owns two cameras.", "The box contains old coins.", "Success depends on regular practice."]
+    },
+    {
+      "title": "Measurement, value and identity",
+      "rule": "Cost, weigh, measure, fit, equal, matter, deserve, resemble, be and exist are commonly stative when they report a fact or condition.",
+      "examples": ["The parcel weighs five kilos.", "These shoes fit Leo.", "The detail matters."]
+    },
+    {
+      "title": "When -ing becomes possible",
+      "rule": "A normally stative verb can use a continuous form when it gains an active, temporary or deliberately changing meaning.",
+      "examples": ["Nina is tasting the sauce.", "Alex is having lunch.", "Sam is being unusually patient today."]
+    }
+  ],
+  "remember": "Ask what the verb means in this sentence. If it names a state, fact, possession, opinion or passive sense, choose the simple form. If it names an activity happening around now, the continuous form may be correct.",
+  "watchOut": "Marketing and very informal speech sometimes use forms such as I am loving it. Learn the standard pattern first: I love it. Also remember that have can be continuous for activities such as having lunch, but not for possession: I have a fast car.",
+  "flashcards": [
+    { "category": "Thoughts", "verb": "know", "example": "Maya knows the route to the gallery." },
+    { "category": "Thoughts", "verb": "believe", "example": "Jon believes the coin is authentic." },
+    { "category": "Thoughts", "verb": "understand", "example": "Rina understands the new rule." },
+    { "category": "Thoughts", "verb": "remember", "example": "Theo remembers their first meeting." },
+    { "category": "Thoughts", "verb": "forget", "example": "I sometimes forget the artist's name." },
+    { "category": "Thoughts", "verb": "mean", "example": "This symbol means good luck." },
+    { "category": "Thoughts", "verb": "realise", "example": "Leah realises that the shop is closed." },
+    { "category": "Thoughts", "verb": "suppose", "example": "I suppose the plan is possible." },
+    { "category": "Thoughts", "verb": "agree", "example": "Nora agrees with the guide." },
+    { "category": "Thoughts", "verb": "doubt", "example": "Owen doubts that the ticket is rare." },
+    { "category": "Feelings", "verb": "love", "example": "Amir loves street photography." },
+    { "category": "Feelings", "verb": "like", "example": "Mina likes quiet exhibitions." },
+    { "category": "Feelings", "verb": "dislike", "example": "Eva dislikes crowded rooms." },
+    { "category": "Feelings", "verb": "hate", "example": "Luis hates waiting in long queues." },
+    { "category": "Feelings", "verb": "prefer", "example": "Zara prefers birdwatching to jogging." },
+    { "category": "Feelings", "verb": "want", "example": "Pavel wants a cup of tea." },
+    { "category": "Feelings", "verb": "need", "example": "Tara needs a quieter place to work." },
+    { "category": "Feelings", "verb": "wish", "example": "I wish the museum stayed open later." },
+    { "category": "Feelings", "verb": "mind", "example": "Ella does not mind walking home." },
+    { "category": "Feelings", "verb": "care", "example": "Noah cares about the history behind each object." },
+    { "category": "Senses", "verb": "see", "example": "I see the mountains from this window." },
+    { "category": "Senses", "verb": "hear", "example": "Ruby hears music in the next room." },
+    { "category": "Senses", "verb": "smell", "example": "The flowers smell wonderful." },
+    { "category": "Senses", "verb": "taste", "example": "The soup tastes too salty." },
+    { "category": "Senses", "verb": "feel", "example": "The blanket feels very soft." },
+    { "category": "Senses", "verb": "notice", "example": "I notice a small mark on the photograph." },
+    { "category": "Senses", "verb": "recognise", "example": "Kim recognises the singer's voice." },
+    { "category": "Appearance", "verb": "seem", "example": "The task seems difficult at first." },
+    { "category": "Appearance", "verb": "appear", "example": "The room appears larger in the picture." },
+    { "category": "Appearance", "verb": "look", "example": "That old coin looks valuable." },
+    { "category": "Appearance", "verb": "sound", "example": "Your new hobby sounds fascinating." },
+    { "category": "Possession", "verb": "have", "example": "Daria has a collection of postcards." },
+    { "category": "Possession", "verb": "own", "example": "Felix owns a small telescope." },
+    { "category": "Possession", "verb": "possess", "example": "The archive possesses the original letter." },
+    { "category": "Possession", "verb": "belong", "example": "The red notebook belongs to Hana." },
+    { "category": "Connection", "verb": "contain", "example": "The case contains six silver coins." },
+    { "category": "Connection", "verb": "include", "example": "The tour includes a photography workshop." },
+    { "category": "Connection", "verb": "consist", "example": "The collection consists of old maps." },
+    { "category": "Connection", "verb": "involve", "example": "Numismatics involves careful research." },
+    { "category": "Connection", "verb": "depend", "example": "The result depends on the weather." },
+    { "category": "Facts", "verb": "cost", "example": "The second-hand camera costs eighty euros." },
+    { "category": "Facts", "verb": "weigh", "example": "The package weighs three kilos." },
+    { "category": "Facts", "verb": "measure", "example": "The table measures two metres across." },
+    { "category": "Facts", "verb": "fit", "example": "These boots fit Marta perfectly." },
+    { "category": "Facts", "verb": "equal", "example": "Two halves equal one whole." },
+    { "category": "Facts", "verb": "matter", "example": "A friendly follow-up question matters." },
+    { "category": "Facts", "verb": "deserve", "example": "A thoughtful answer deserves attention." },
+    { "category": "Facts", "verb": "resemble", "example": "The new painting resembles an older work." },
+    { "category": "Facts", "verb": "exist", "example": "Several versions of the story exist." },
+    { "category": "Facts", "verb": "be", "example": "Kai is usually very patient." }
+  ],
+  "dailyUsage": [
+    {
+      "verb": "think",
+      "stateMeaning": "have an opinion",
+      "stateExample": "I think birdwatching is relaxing.",
+      "actionMeaning": "consider something actively",
+      "actionExample": "I am thinking about joining the club.",
+      "tip": "Do not say I am thinking it is relaxing when you simply mean this is my opinion."
+    },
+    {
+      "verb": "have",
+      "stateMeaning": "possess or own",
+      "stateExample": "Nadia has a rare coin.",
+      "actionMeaning": "take part in an activity or experience",
+      "actionExample": "Nadia is having lunch with a collector.",
+      "tip": "Meals, showers, lessons and a good time can be activities; possession cannot."
+    },
+    {
+      "verb": "see",
+      "stateMeaning": "perceive or understand",
+      "stateExample": "I see your point now.",
+      "actionMeaning": "meet, visit or date",
+      "actionExample": "I am seeing the dentist tomorrow.",
+      "tip": "The continuous form changes see from passive perception to an arranged or repeated meeting."
+    },
+    {
+      "verb": "taste",
+      "stateMeaning": "have a particular flavour",
+      "stateExample": "The tea tastes bitter.",
+      "actionMeaning": "sample food deliberately",
+      "actionExample": "The chef is tasting the tea.",
+      "tip": "The tea is not doing an action; the chef is."
+    },
+    {
+      "verb": "smell",
+      "stateMeaning": "have a particular smell",
+      "stateExample": "The bread smells fresh.",
+      "actionMeaning": "sniff deliberately",
+      "actionExample": "Ravi is smelling the bread to check it.",
+      "tip": "Smell is dynamic when someone actively uses their nose."
+    },
+    {
+      "verb": "feel",
+      "stateMeaning": "have an opinion, emotion or physical condition",
+      "stateExample": "I feel tired after the trip.",
+      "actionMeaning": "touch in order to examine",
+      "actionExample": "Mira is feeling the fabric for a rough patch.",
+      "tip": "I am feeling tired is possible when emphasising a temporary experience, but I feel tired is the safe everyday choice."
+    },
+    {
+      "verb": "look",
+      "stateMeaning": "have an appearance",
+      "stateExample": "The camera looks expensive.",
+      "actionMeaning": "direct your eyes",
+      "actionExample": "Leo is looking at the camera.",
+      "tip": "Look meaning appear is followed by an adjective; look at names an action."
+    },
+    {
+      "verb": "be",
+      "stateMeaning": "describe identity or a usual quality",
+      "stateExample": "Ana is patient.",
+      "actionMeaning": "behave temporarily in a particular way",
+      "actionExample": "Ana is being very patient today.",
+      "tip": "Being plus an adjective usually highlights temporary behaviour, not a permanent trait."
+    },
+    {
+      "verb": "weigh",
+      "stateMeaning": "have a weight",
+      "stateExample": "The parcel weighs four kilos.",
+      "actionMeaning": "measure the weight",
+      "actionExample": "The assistant is weighing the parcel.",
+      "tip": "The object has a weight; a person or machine performs the measuring action."
+    }
+  ],
+  "dailyQuestions": [
+    { "q": "Choose the natural sentence for an opinion.", "opt": ["I think the exhibition is interesting.", "I am thinking the exhibition is interesting.", "I thinking the exhibition is interesting."], "a": "I think the exhibition is interesting.", "why": "Think meaning have an opinion is stative." },
+    { "q": "The activity is happening now. Choose the natural sentence.", "opt": ["Mila is having breakfast.", "Mila has breakfast right now.", "Mila having breakfast."], "a": "Mila is having breakfast.", "why": "Have is dynamic in the activity have breakfast." },
+    { "q": "Choose the sentence about possession.", "opt": ["Jon has a fast bicycle.", "Jon is having a fast bicycle.", "Jon have a fast bicycle."], "a": "Jon has a fast bicycle.", "why": "Have meaning possess is stative." },
+    { "q": "A chef is checking the flavour now.", "opt": ["The chef is tasting the soup.", "The chef tastes the soup every second now.", "The chef tasting the soup."], "a": "The chef is tasting the soup.", "why": "Taste is an active process here." },
+    { "q": "Choose the sentence about appearance.", "opt": ["The jacket looks smart.", "The jacket is looking smart.", "The jacket look smart."], "a": "The jacket looks smart.", "why": "Look meaning appear is stative." },
+    { "q": "Choose the deliberate action happening now.", "opt": ["Tara is smelling the flowers.", "The flowers are smelling sweet.", "Tara smells sweet flowers now."], "a": "Tara is smelling the flowers.", "why": "Tara is actively using her nose." },
+    { "q": "Choose the normal sentence about weight.", "opt": ["The bag weighs ten kilos.", "The bag is weighing ten kilos.", "The bag weigh ten kilos."], "a": "The bag weighs ten kilos.", "why": "Weigh meaning have a weight is stative." },
+    { "q": "Choose the temporary behaviour.", "opt": ["Omar is being unusually quiet today.", "Omar being unusually quiet today.", "Omar is unusually quiet every day today."], "a": "Omar is being unusually quiet today.", "why": "Be can be continuous for deliberate or temporary behaviour." }
+  ],
+  "practice": [
+    { "q": "Choose the correct standard sentence.", "opt": ["I want some water.", "I am wanting some water.", "I wanting some water."], "a": "I want some water.", "why": "Want normally describes a state." },
+    { "q": "Choose the correct sentence.", "opt": ["This notebook belongs to Priya.", "This notebook is belonging to Priya.", "This notebook belong Priya."], "a": "This notebook belongs to Priya.", "why": "Belong is stative and uses to." },
+    { "q": "Choose the correct sentence.", "opt": ["We know the answer.", "We are knowing the answer.", "We knows the answer."], "a": "We know the answer.", "why": "Know is a knowledge state." },
+    { "q": "Choose the correct sentence.", "opt": ["The box contains old postcards.", "The box is containing old postcards.", "The box contain old postcards."], "a": "The box contains old postcards.", "why": "Contain describes composition." },
+    { "q": "Choose the correct sentence.", "opt": ["This camera costs fifty euros.", "This camera is costing fifty euros.", "This camera cost fifty euros now."], "a": "This camera costs fifty euros.", "why": "Cost normally reports a state or fact." },
+    { "q": "Choose the natural preference sentence.", "opt": ["Maya really likes photography.", "Maya is really liking photography.", "Maya really like photography."], "a": "Maya really likes photography.", "why": "Like is normally stative; really comes before like." },
+    { "q": "Choose the natural sentence.", "opt": ["Nico does not mind waiting.", "Nico is not minding waiting.", "Nico does not mind wait."], "a": "Nico does not mind waiting.", "why": "Mind is stative, and mind is followed by an -ing activity." },
+    { "q": "Choose the natural sentence.", "opt": ["I cannot stand crowded gyms.", "I am not standing crowded gyms.", "I cannot standing crowded gyms."], "a": "I cannot stand crowded gyms.", "why": "Cannot stand expresses a strong dislike." },
+    { "q": "Choose the correct partnership from the previous lesson.", "opt": ["Sara listens to a history podcast.", "Sara listens a history podcast.", "Sara listens at a history podcast."], "a": "Sara listens to a history podcast.", "why": "Listen is followed by to." },
+    { "q": "Choose the correct partnership from the previous lesson.", "opt": ["Ben spends time on his collection.", "Ben spends time at his collection.", "Ben spends on time his collection."], "a": "Ben spends time on his collection.", "why": "The phrase is spend time on something." },
+    { "q": "Choose the correct sentence.", "opt": ["I think you look great today.", "I am thinking you are looking great today.", "I think you are look great today."], "a": "I think you look great today.", "why": "Think expresses an opinion and look describes appearance." },
+    { "q": "Choose the natural correction.", "opt": ["I should prepare the car.", "I should to prepare the car.", "I should preparing the car."], "a": "I should prepare the car.", "why": "Use the base verb after should, without to." }
+  ],
+  "conversation": [
+    { "speaker": "Mila", "line": "I am thinking about trying birdwatching.", "q": "What does Mila mean?", "opt": ["She is considering it now.", "She already owns every bird guide.", "She dislikes all hobbies."], "a": "She is considering it now.", "why": "Thinking about is an active mental process." },
+    { "speaker": "Noah", "line": "I think birdwatching is peaceful.", "q": "What does Noah express?", "opt": ["An opinion", "A meeting arrangement", "An action with his eyes"], "a": "An opinion", "why": "Think without -ing commonly introduces an opinion." },
+    { "speaker": "Rosa", "line": "This soup tastes unusual.", "q": "Choose the most natural reply.", "opt": ["Yes, it contains a lot of ginger.", "Yes, it is tasting itself.", "Yes, you are owning it."], "a": "Yes, it contains a lot of ginger.", "why": "Taste and contain both describe states here." },
+    { "speaker": "Arun", "line": "I am seeing a coin collector tomorrow.", "q": "What is happening?", "opt": ["He has an arranged meeting.", "He suddenly understands a coin.", "He is describing the coin's appearance."], "a": "He has an arranged meeting.", "why": "See can be dynamic when it means meet." },
+    { "speaker": "Zoe", "line": "I quite like numismatics.", "q": "Choose the best follow-up question.", "opt": ["What kind of coins interest you most?", "Are you liking right now?", "Why do coins belong?"], "a": "What kind of coins interest you most?", "why": "A connected, specific question keeps small talk moving." }
+  ],
+  "reading": {
+    "level": "B1",
+    "title": "A Busy Saturday at the Curiosity Club",
+    "text": "The Curiosity Club meets in a bright room above the town library. Its members have very different hobbies, but they all believe that a good question can connect people. This Saturday, the club is holding a small open day for new visitors.\n\nAt the first table, Hana is showing a collection of concert memorabilia. The display contains old tickets, posters and a drumstick from a local band. She owns the tickets, but the drumstick belongs to her brother. A visitor thinks the drumstick looks ordinary, yet Hana knows its story matters. She explains where it came from and asks the visitor which music he prefers.\n\nAcross the room, Felix has a numismatics display. One silver coin weighs only a few grams and costs less than a modern lunch, but it is still his favourite. He loves researching the people shown on coins. At the moment, he is weighing a new coin because he wants to compare it with the information in a catalogue. The coin weighs twelve grams, so the result appears correct.\n\nNear the window, Priya is preparing tea for the visitors. She tastes the first cup and adds a little lemon. The tea now tastes fresher. She is also thinking about joining the photography group, although she thinks a new camera is too expensive. Leo, a street photographer, tells her that a phone camera is enough to begin.\n\nThe open day works because the members do more than describe objects. They listen to each visitor, react to one detail and ask a follow-up question. By the end, Priya quite likes the idea of street photography, while Leo is thinking about starting a small ticket collection. Their interests are changing, but the grammar makes each meaning clear.",
+    "questions": [
+      { "q": "What do all club members believe?", "opt": ["A good question can connect people.", "Every hobby must be expensive.", "Only collectors can join."], "a": "A good question can connect people.", "why": "The first paragraph states the shared belief." },
+      { "q": "Who owns the drumstick?", "opt": ["Hana's brother", "Hana", "The visitor"], "a": "Hana's brother", "why": "The text says that it belongs to her brother." },
+      { "q": "Why is Felix weighing a coin?", "opt": ["He is comparing it with catalogue information.", "He wants to cook it.", "He thinks every coin is heavy."], "a": "He is comparing it with catalogue information.", "why": "Weighing is an action here." },
+      { "q": "What does the sentence The coin weighs twelve grams express?", "opt": ["A measurement", "An action in progress", "A personal preference"], "a": "A measurement", "why": "Weigh is stative when it reports the object's weight." },
+      { "q": "What changes after Priya adds lemon?", "opt": ["The tea tastes fresher.", "The tea owns a camera.", "The tea is thinking."], "a": "The tea tastes fresher.", "why": "Taste describes the tea's flavour." },
+      { "q": "What is Priya considering?", "opt": ["Joining the photography group", "Selling the library", "Leaving every hobby"], "a": "Joining the photography group", "why": "Is thinking about describes active consideration." },
+      { "q": "Why does the open day work well?", "opt": ["Members react and ask connected questions.", "Members give long lectures only.", "Everyone has the same hobby."], "a": "Members react and ask connected questions.", "why": "This revises the small-talk strategy from the previous lesson." }
+    ]
+  },
+  "listening": {
+    "title": "State or Action at the Hobby Fair?",
+    "level": "B1",
+    "instructions": "Listen once for the situation. Listen again for the exact verb forms. Then unlock the transcript and check your answers.",
+    "script": "Maya: This photography fair looks busy. Do you know anyone here?\nLeo: Yes. I know Sam, the man near the entrance. He owns the vintage camera stall.\nMaya: I think his cameras look beautiful, but they cost a lot.\nLeo: True. I am thinking about buying a smaller one.\nMaya: What is Nina doing beside the café?\nLeo: She is tasting three kinds of tea for her food blog. She says the green tea tastes best.\nMaya: I see. Are you seeing Sam later?\nLeo: Yes, I am seeing him at six to discuss a photography walk. He really likes street photography, and I quite like it too.",
+    "questions": [
+      { "q": "Who owns the vintage camera stall?", "opt": ["Sam", "Maya", "Nina"], "a": "Sam", "why": "Own describes possession." },
+      { "q": "What is Leo considering?", "opt": ["Buying a smaller camera", "Selling the café", "Starting numismatics"], "a": "Buying a smaller camera", "why": "Am thinking about shows active consideration." },
+      { "q": "Why is Nina tasting tea?", "opt": ["For her food blog", "Because the tea owns her", "To measure its weight"], "a": "For her food blog", "why": "Tasting is a deliberate action." },
+      { "q": "What does the green tea tastes best describe?", "opt": ["Its flavour", "An arranged meeting", "A possession"], "a": "Its flavour", "why": "Taste is stative here." },
+      { "q": "What does Leo mean by I am seeing him at six?", "opt": ["He has an arranged meeting.", "He can notice Sam with his eyes.", "He understands a rule."], "a": "He has an arranged meeting.", "why": "See can be dynamic when it means meet." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write 80–110 words about a fictional person's busy day and hobby. Use at least four normally stative verbs, one verb with an active -ing meaning, two preference expressions from the previous lesson, and one natural follow-up question.",
+    "checklist": [
+      "Use a fictional name",
+      "Include four stative verbs",
+      "Include one correct active -ing contrast",
+      "Use two preference expressions",
+      "Add one hobby word",
+      "Finish with a follow-up question"
+    ]
+  },
+  "quiz": [
+    { "q": "Choose the standard sentence.", "opt": ["I know the answer.", "I am knowing the answer.", "I knowing the answer."], "a": "I know the answer." },
+    { "q": "Choose the sentence about possession.", "opt": ["Mina has two cameras.", "Mina is having two cameras.", "Mina have two cameras."], "a": "Mina has two cameras." },
+    { "q": "Choose the activity happening now.", "opt": ["Mina is having lunch.", "Mina has a lunch right now every second.", "Mina having lunch."], "a": "Mina is having lunch." },
+    { "q": "Choose the opinion.", "opt": ["I think the plan is good.", "I am thinking the plan is good.", "I think about good the plan."], "a": "I think the plan is good." },
+    { "q": "Choose active consideration.", "opt": ["I am thinking about the plan.", "I think the plan is practical.", "I am think about the plan."], "a": "I am thinking about the plan." },
+    { "q": "Choose the sentence about flavour.", "opt": ["The cake tastes sweet.", "The cake is tasting sweet.", "The cake taste sweet."], "a": "The cake tastes sweet." },
+    { "q": "Choose the deliberate action.", "opt": ["The chef is tasting the cake.", "The chef tastes sweet.", "The chef is taste the cake."], "a": "The chef is tasting the cake." },
+    { "q": "Choose the appearance meaning.", "opt": ["The coat looks expensive.", "The coat is looking expensive.", "The coat look at expensive."], "a": "The coat looks expensive." },
+    { "q": "Choose the action with the eyes.", "opt": ["Nora is looking at the coat.", "Nora looks expensive at the coat.", "Nora is look at the coat."], "a": "Nora is looking at the coat." },
+    { "q": "Choose the measurement.", "opt": ["The parcel weighs five kilos.", "The parcel is weighing five kilos.", "The parcel weigh five kilos."], "a": "The parcel weighs five kilos." },
+    { "q": "Choose the measuring action.", "opt": ["Pavel is weighing the parcel.", "Pavel weighs five kilos the parcel.", "Pavel is weigh the parcel."], "a": "Pavel is weighing the parcel." },
+    { "q": "Choose the correct possession relationship.", "opt": ["The album belongs to Aya.", "The album is belonging to Aya.", "The album belongs Aya."], "a": "The album belongs to Aya." },
+    { "q": "Which is a strong positive preference?", "opt": ["be crazy about", "quite like", "do not mind"], "a": "be crazy about" },
+    { "q": "Which is a moderate positive preference?", "opt": ["quite like", "cannot stand", "hate"], "a": "quite like" },
+    { "q": "Which phrase is neutral?", "opt": ["do not mind", "love", "cannot stand"], "a": "do not mind" },
+    { "q": "Numismatics is connected with which hobby?", "opt": ["Collecting and studying coins", "Catching fish by hand", "Taking studio photographs"], "a": "Collecting and studying coins" },
+    { "q": "Choose the correct partnership.", "opt": ["listen to a podcast", "listen a podcast", "listen at a podcast"], "a": "listen to a podcast" },
+    { "q": "Choose the natural sentence.", "opt": ["Ravi spends time on his collection.", "Ravi spends time at his collection.", "Ravi spends on time his collection."], "a": "Ravi spends time on his collection." },
+    { "q": "Choose the correct sentence after should.", "opt": ["I should prepare the car.", "I should to prepare the car.", "I should preparing the car."], "a": "I should prepare the car." },
+    { "q": "What is the best final check before choosing simple or continuous?", "opt": ["Ask what the verb means in this sentence.", "Always add -ing for the present moment.", "Never use any of these verbs with -ing."], "a": "Ask what the verb means in this sentence." }
+  ]
+}

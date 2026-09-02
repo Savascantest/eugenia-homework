@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import LatestHomework from './LatestHomework';
 import Homework20260825 from './Homework20260825';
 import Homework20260829 from './Homework20260829';
+import Homework20260901 from './Homework20260901';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -929,7 +930,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework4');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework5');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1010,16 +1011,20 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework5') {
+    return <Homework20260901 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+  }
+
   if (homeworkVersion === 'homework4') {
-    return <Homework20260829 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+    return <Homework20260829 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework5'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
   }
 
   if (homeworkVersion === 'homework3') {
-    return <><div style={{position:'sticky',top:0,zIndex:100,padding:8,textAlign:'center',background:'#111827'}}><button onClick={()=>setHomeworkVersion('homework4')} style={{padding:'10px 16px',border:0,borderRadius:10,fontWeight:800}}>Return to current lesson · 29 Aug</button></div><Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0 }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} /></>;
+    return <><div style={{position:'sticky',top:0,zIndex:100,padding:8,textAlign:'center',background:'#111827'}}><button onClick={()=>setHomeworkVersion('homework5')} style={{padding:'10px 16px',border:0,borderRadius:10,fontWeight:800}}>Return to current lesson · 1 Sep</button></div><Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0 }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} /></>;
   }
 
   if (homeworkVersion === 'homework2') {
-    return <LatestHomework darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework3'); window.scrollTo({ top: 0 }); }} onOpenPrevious={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} />;
+    return <LatestHomework darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework5'); window.scrollTo({ top: 0 }); }} onOpenPrevious={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} />;
   }
 
   return (
@@ -1035,7 +1040,9 @@ export default function App() {
             <span className="font-extrabold tracking-tight text-lg hidden sm:block">Eugenia's Homework Workspace</span>
           </div>
           <div className="flex items-center gap-2 sm:gap-4">
-             <button onClick={() => { setHomeworkVersion('homework3'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} className="px-3 py-2 rounded-xl bg-blue-600 text-white text-xs sm:text-sm font-bold">Homework 3 <span className="hidden sm:inline">· Latest</span></button>
+             <button onClick={() => { setHomeworkVersion('homework5'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} className="px-3 py-2 rounded-xl bg-blue-600 text-white text-xs sm:text-sm font-bold">Homework 5 <span className="hidden sm:inline">· Latest</span></button>
+             <button onClick={() => { setHomeworkVersion('homework4'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs sm:text-sm font-bold">Homework 4</button>
+             <button onClick={() => { setHomeworkVersion('homework3'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs sm:text-sm font-bold">Homework 3</button>
              <button onClick={() => { setHomeworkVersion('homework2'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs sm:text-sm font-bold">Homework 2</button>
              <span className="hidden md:inline text-xs font-bold text-stone-400">Viewing Homework 1 · 18 Aug</span>
              <button onClick={toggleDarkMode} className="text-stone-400 hover:text-slate-800 dark:hover:text-white p-2 rounded-full transition-colors">
