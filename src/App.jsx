@@ -3,6 +3,7 @@ import LatestHomework from './LatestHomework';
 import Homework20260825 from './Homework20260825';
 import Homework20260829 from './Homework20260829';
 import Homework20260901 from './Homework20260901';
+import Homework20260907 from './Homework20260907';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -930,7 +931,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework5');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework6');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1011,12 +1012,15 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework6') {
+    return <Homework20260907 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework5={() => { setHomeworkVersion('homework5'); window.scrollTo({top:0}); }} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+  }
   if (homeworkVersion === 'homework5') {
     return <Homework20260901 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
   }
 
   if (homeworkVersion === 'homework4') {
-    return <Homework20260829 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework5'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+    return <Homework20260829 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework6'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
   }
 
   if (homeworkVersion === 'homework3') {
