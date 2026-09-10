@@ -4,7 +4,7 @@ import {
   Headphones, Lightbulb, MessageCircle, PenTool, Play, RefreshCw, Sparkles, Star
 } from 'lucide-react';
 
-const PACKAGE_ID = '2026-09-01-70e747daa869';
+const PACKAGE_ID = '2026-09-09-d2100490efd';
 const DATA_URL = `${import.meta.env.BASE_URL}homeworks/${PACKAGE_ID}/homework.json`;
 const PROGRESS_KEY = `eugenia_homework_${PACKAGE_ID}_progress`;
 const MISTAKE_KEY = `eugenia_homework_${PACKAGE_ID}_mistakes`;
@@ -26,6 +26,15 @@ function QuestionSet({ questions, section, onComplete, saved, label = 'Finish se
   const [answers, setAnswers] = useState({});
   const [finished, setFinished] = useState(false);
   const score = useMemo(() => questions.reduce((n, q, i) => n + (answers[i] === q.a ? 1 : 0), 0), [answers, questions]);
+  const shuffledQuestions = useMemo(() => questions.map(question => {
+    const options = [...question.opt];
+    if (options.length < 4) options.push('None of these answers.');
+    for (let i = options.length - 1; i > 0; i -= 1) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [options[i], options[j]] = [options[j], options[i]];
+    }
+    return { ...question, opt: options };
+  }), [questions]);
 
   const choose = (index, answer) => setAnswers(current => ({ ...current, [index]: answer }));
   const finish = () => {
@@ -35,12 +44,12 @@ function QuestionSet({ questions, section, onComplete, saved, label = 'Finish se
 
   return (
     <div className="space-y-5">
-      {questions.map((q, i) => {
+      {shuffledQuestions.map((q, i) => {
         const answered = answers[i] !== undefined;
         const correct = answers[i] === q.a;
         return (
           <div key={`${section}-${i}`} className={`rounded-2xl border p-5 bg-white dark:bg-slate-800 ${answered ? (correct ? 'border-emerald-300 dark:border-emerald-700' : 'border-rose-300 dark:border-rose-700') : 'border-stone-200 dark:border-slate-700'}`}>
-            {q.speaker && <div className="mb-4 p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20"><strong>{q.speaker}:</strong> “{q.line}”</div>}
+            {q.speaker && <div className="mb-4 max-w-xl p-4 rounded-2xl rounded-bl-md bg-blue-600 text-white shadow-sm"><strong>{q.speaker}:</strong> “{q.line}”</div>}
             <p className="font-semibold mb-4">{i + 1}. {q.q}</p>
             <div className="grid md:grid-cols-3 gap-3">
               {q.opt.map(option => (
@@ -129,7 +138,7 @@ function WritingTask({ task, onComplete, saved }) {
   );
 }
 
-export default function Homework20260901({ onOpenHomework6, onOpenHomework4, onOpenHomework3, onOpenHomework2, onOpenHomework1, darkMode, toggleDarkMode }) {
+export default function Homework20260909({ onOpenHomework5, onOpenHomework4, onOpenHomework3, onOpenHomework2, onOpenHomework1, darkMode, toggleDarkMode }) {
   const [data, setData] = useState(null);
   const [error, setError] = useState('');
   const [tab, setTab] = useState('notes');
@@ -175,7 +184,7 @@ export default function Homework20260901({ onOpenHomework6, onOpenHomework4, onO
 
   return (
     <div className="min-h-screen bg-stone-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100">
-      <header className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-stone-200 dark:border-slate-800"><div className="max-w-6xl mx-auto px-4 py-3 flex flex-col lg:flex-row lg:items-center justify-between gap-3"><div className="flex items-center gap-3"><div className="p-2 rounded-xl bg-slate-900 dark:bg-blue-600 text-white"><BookOpen className="w-5 h-5"/></div><div><div className="font-extrabold">Eugenia's Homework Workspace</div><div className="text-xs text-stone-500 dark:text-slate-400">Homework 5 · {data.dateLabel}</div></div></div><div className="flex gap-2 items-center flex-wrap"><button onClick={onOpenHomework6} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-bold">Homework 6 <span className="ml-1 text-[10px] uppercase bg-white/20 px-2 py-1 rounded-full">Latest</span></button><button className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 5 · 1 Sep</button><button onClick={onOpenHomework4} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 4 · 29 Aug</button><button onClick={onOpenHomework3} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 3 · 25 Aug</button><button onClick={onOpenHomework2} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 2</button><button onClick={onOpenHomework1} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 1</button><button onClick={toggleDarkMode} className="p-2 rounded-full text-stone-500 dark:text-slate-300" aria-label="Toggle dark mode">{darkMode ? <Eye className="w-5 h-5"/> : <EyeOff className="w-5 h-5"/>}</button></div></div></header>
+      <header className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-stone-200 dark:border-slate-800"><div className="max-w-6xl mx-auto px-4 py-3 flex flex-col lg:flex-row lg:items-center justify-between gap-3"><div className="flex items-center gap-3"><div className="p-2 rounded-xl bg-slate-900 dark:bg-blue-600 text-white"><BookOpen className="w-5 h-5"/></div><div><div className="font-extrabold">Eugenia's Homework Workspace</div><div className="text-xs text-stone-500 dark:text-slate-400">Homework 7 · {data.dateLabel}</div></div></div><div className="flex gap-2 items-center flex-wrap"><button className="px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-bold">Homework 7 <span className="ml-1 text-[10px] uppercase bg-white/20 px-2 py-1 rounded-full">Latest</span></button><button onClick={onOpenHomework5} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 6 · 7 Sep</button><button onClick={onOpenHomework4} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 4 · 29 Aug</button><button onClick={onOpenHomework3} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 3 · 25 Aug</button><button onClick={onOpenHomework2} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 2</button><button onClick={onOpenHomework1} className="px-3 py-2 rounded-xl border border-stone-300 dark:border-slate-600 text-xs font-bold bg-white dark:bg-slate-800">Homework 1</button><button onClick={toggleDarkMode} className="p-2 rounded-full text-stone-500 dark:text-slate-300" aria-label="Toggle dark mode">{darkMode ? <Eye className="w-5 h-5"/> : <EyeOff className="w-5 h-5"/>}</button></div></div></header>
 
       <main className="max-w-6xl mx-auto px-4 py-8 pb-20">
         <div className="rounded-3xl p-8 md:p-10 mb-8 bg-gradient-to-br from-blue-50 to-violet-50 dark:from-blue-950/40 dark:to-violet-950/30 border border-blue-100 dark:border-blue-900"><div className="flex flex-col md:flex-row gap-8 md:items-end justify-between"><div><div className="text-xs font-black uppercase tracking-widest text-blue-700 dark:text-blue-300 mb-3">Lesson-based practice</div><h1 className="text-4xl md:text-5xl font-extrabold font-serif mb-4">{data.title}</h1><p className="text-lg text-stone-600 dark:text-slate-300 max-w-3xl">{data.subtitle}</p></div><div className="shrink-0 w-36 text-center p-5 rounded-2xl bg-white/80 dark:bg-slate-800 border border-white dark:border-slate-700"><div className="text-3xl font-black">{pct}%</div><div className="text-xs font-bold uppercase text-stone-500">{completed}/{tabs.length} sections</div></div></div></div>
@@ -183,13 +192,13 @@ export default function Homework20260901({ onOpenHomework6, onOpenHomework4, onO
 
         {tab === 'notes' && <div className="space-y-7"><div className="rounded-3xl p-7 bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800"><h2 className="text-2xl font-extrabold font-serif mb-3">What these two lessons connect</h2><p>Start with the lesson thread, then practise the forms in everyday situations.</p></div>{data.lessonNotes.map((note, i) => <div key={note} className="rounded-2xl p-5 bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700 flex gap-4"><div className="w-8 h-8 shrink-0 rounded-full bg-blue-100 dark:bg-blue-900/30 grid place-items-center font-black text-blue-700 dark:text-blue-300">{i + 1}</div><p className="leading-relaxed">{note}</p></div>)}<button onClick={() => complete('notes', 1, 1, {}, [])} className="px-7 py-3 rounded-xl bg-slate-900 dark:bg-blue-600 text-white font-bold">Mark notes complete</button></div>}
         {tab === 'grammar' && <div className="space-y-6">{data.grammar.map(item => <section key={item.title} className="rounded-3xl p-6 bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700"><h3 className="text-2xl font-extrabold font-serif mb-3">{item.title}</h3><p className="leading-relaxed mb-5">{item.rule}</p><div className="grid md:grid-cols-3 gap-3">{item.examples.map(example => <div key={example} className="p-4 rounded-xl bg-blue-50 dark:bg-blue-900/20 font-semibold">{example}</div>)}</div></section>)}<div className="grid md:grid-cols-2 gap-5"><div className="p-6 rounded-3xl bg-emerald-50 dark:bg-emerald-900/15 border border-emerald-200 dark:border-emerald-800"><h3 className="font-extrabold mb-2">Remember</h3><p>{data.remember}</p></div><div className="p-6 rounded-3xl bg-rose-50 dark:bg-rose-900/15 border border-rose-200 dark:border-rose-800"><h3 className="font-extrabold mb-2">Watch Out</h3><p>{data.watchOut}</p></div></div><button onClick={() => complete('grammar', 1, 1, {}, [])} className="px-7 py-3 rounded-xl bg-slate-900 dark:bg-blue-600 text-white font-bold">Mark grammar complete</button></div>}
-        {tab === 'flashcards' && <Flashcards cards={data.flashcards} onComplete={complete} saved={!!progress.flashcards}/>} 
+        {tab === 'flashcards' && <Flashcards cards={data.flashcards} onComplete={complete} saved={!!progress.flashcards}/>}
         {tab === 'daily' && <div className="space-y-7"><div className="rounded-3xl p-7 bg-emerald-50 dark:bg-emerald-900/15 border border-emerald-200 dark:border-emerald-800"><h2 className="text-2xl font-extrabold font-serif mb-2">State or action in real life?</h2><p>The same verb can change grammar when its meaning changes. Compare each pair before doing the quick check.</p></div><div className="grid lg:grid-cols-2 gap-5">{data.dailyUsage.map(item => <article key={item.verb} className="rounded-3xl p-6 bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700"><h3 className="text-2xl font-extrabold text-blue-700 dark:text-blue-300 mb-4">{item.verb}</h3><div className="p-4 rounded-xl bg-rose-50 dark:bg-rose-900/15 border border-rose-100 dark:border-rose-900"><div className="text-xs font-black uppercase tracking-widest text-rose-600 mb-2">Usually no -ing · state</div><p className="font-semibold">{item.stateExample}</p><p className="text-sm mt-2 text-stone-600 dark:text-slate-400">{item.stateMeaning}</p></div><div className="mt-3 p-4 rounded-xl bg-emerald-50 dark:bg-emerald-900/15 border border-emerald-100 dark:border-emerald-900"><div className="text-xs font-black uppercase tracking-widest text-emerald-600 mb-2">-ing works · action</div><p className="font-semibold">{item.actionExample}</p><p className="text-sm mt-2 text-stone-600 dark:text-slate-400">{item.actionMeaning}</p></div><HintBox title="Watch Out">{item.tip}</HintBox></article>)}</div><QuestionSet questions={data.dailyQuestions} section="daily" onComplete={complete} saved={!!progress.daily}/></div>}
-        {tab === 'practice' && <QuestionSet questions={data.practice} section="practice" onComplete={complete} saved={!!progress.practice}/>} 
+        {tab === 'practice' && <QuestionSet questions={data.practice} section="practice" onComplete={complete} saved={!!progress.practice}/>}
         {tab === 'conversation' && <div className="space-y-7"><div className="rounded-3xl p-7 bg-violet-50 dark:bg-violet-900/15 border border-violet-200 dark:border-violet-800"><MessageCircle className="w-7 h-7 mb-3 text-violet-600"/><h2 className="text-2xl font-extrabold font-serif mb-2">Everyday choices</h2><p>Choose the line that matches the intended meaning and keeps the conversation natural.</p></div><QuestionSet questions={data.conversation} section="conversation" onComplete={complete} saved={!!progress.conversation}/></div>}
         {tab === 'reading' && <div className="space-y-8"><div className="rounded-3xl p-7 md:p-10 bg-white dark:bg-slate-800 border border-stone-200 dark:border-slate-700"><div className="text-xs font-black uppercase tracking-widest text-rose-600 mb-2">{data.reading.level} reading</div><h2 className="text-3xl font-extrabold font-serif mb-6">{data.reading.title}</h2><p className="whitespace-pre-line text-lg leading-loose font-serif">{data.reading.text}</p></div><QuestionSet questions={data.reading.questions} section="reading" onComplete={complete} saved={!!progress.reading}/></div>}
-        {tab === 'listening' && <ListeningTask task={data.listening} onComplete={complete} saved={!!progress.listening}/>} 
-        {tab === 'writing' && <WritingTask task={data.writing} onComplete={complete} saved={!!progress.writing}/>} 
+        {tab === 'listening' && <ListeningTask task={data.listening} onComplete={complete} saved={!!progress.listening}/>}
+        {tab === 'writing' && <WritingTask task={data.writing} onComplete={complete} saved={!!progress.writing}/>}
         {tab === 'quiz' && <div className="space-y-8"><div className="rounded-3xl p-7 bg-amber-50 dark:bg-amber-900/15 border border-amber-200 dark:border-amber-800"><h2 className="text-2xl font-extrabold font-serif mb-2">Final Quiz</h2><p>20 mixed questions on stative meaning, everyday -ing choices, hobbies and preference language. Aim for at least 16/20.</p></div><QuestionSet questions={data.quiz} section="quiz" onComplete={complete} saved={!!progress.quiz} label="Submit quiz"/></div>}
 
         {Object.keys(mistakes).length > 0 && !['notes','grammar','flashcards','writing'].includes(tab) && <div className="mt-12 rounded-3xl p-6 bg-rose-50 dark:bg-rose-900/10 border border-rose-100 dark:border-rose-900/30"><h3 className="font-extrabold flex items-center gap-2 mb-4"><ClipboardCheck className="w-5 h-5"/>Mistake Review</h3><div className="grid md:grid-cols-2 gap-3">{Object.values(mistakes).slice(0, 8).map((mistake, i) => <div key={i} className="p-4 rounded-xl bg-white dark:bg-slate-800 border border-rose-100 dark:border-slate-700"><div className="text-sm mb-2">{mistake.q}</div><div className="font-bold text-emerald-700 dark:text-emerald-400">✓ {mistake.a}</div></div>)}</div></div>}

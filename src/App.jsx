@@ -4,6 +4,7 @@ import Homework20260825 from './Homework20260825';
 import Homework20260829 from './Homework20260829';
 import Homework20260901 from './Homework20260901';
 import Homework20260907 from './Homework20260907';
+import Homework20260909 from './Homework20260909';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -931,7 +932,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework6');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework7');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1012,11 +1013,14 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework7') {
+    return <Homework20260909 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework5={() => { setHomeworkVersion('homework6'); window.scrollTo({top:0}); }} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+  }
   if (homeworkVersion === 'homework6') {
     return <Homework20260907 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework5={() => { setHomeworkVersion('homework5'); window.scrollTo({top:0}); }} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
   }
   if (homeworkVersion === 'homework5') {
-    return <Homework20260901 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0}); }} />;
+    return <Homework20260901 key="homework5" darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework6={() => { setHomeworkVersion('homework6'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0, behavior:'auto'}); }} onOpenHomework4={() => { setHomeworkVersion('homework4'); window.scrollTo({top:0, behavior:'auto'}); }} onOpenHomework3={() => { setHomeworkVersion('homework3'); window.scrollTo({top:0, behavior:'auto'}); }} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({top:0, behavior:'auto'}); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0, behavior:'auto'}); }} />;
   }
 
   if (homeworkVersion === 'homework4') {
@@ -1024,11 +1028,11 @@ export default function App() {
   }
 
   if (homeworkVersion === 'homework3') {
-    return <><div style={{position:'sticky',top:0,zIndex:100,padding:8,textAlign:'center',background:'#111827'}}><button onClick={()=>setHomeworkVersion('homework5')} style={{padding:'10px 16px',border:0,borderRadius:10,fontWeight:800}}>Return to current lesson · 1 Sep</button></div><Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0 }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} /></>;
+    return <><div style={{position:'sticky',top:0,zIndex:100,padding:8,textAlign:'center',background:'#111827'}}><button onClick={()=>{ setHomeworkVersion('homework6'); setCurrentSection('DASHBOARD'); window.scrollTo({top:0, behavior:'auto'}); }} style={{padding:'10px 16px',border:0,borderRadius:10,fontWeight:800}}>Return to latest lesson · 7 Sep</button></div><Homework20260825 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenHomework2={() => { setHomeworkVersion('homework2'); window.scrollTo({ top: 0, behavior:'auto' }); }} onOpenHomework1={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0, behavior:'auto' }); }} /></>;
   }
 
   if (homeworkVersion === 'homework2') {
-    return <LatestHomework darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework5'); window.scrollTo({ top: 0 }); }} onOpenPrevious={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0 }); }} />;
+    return <LatestHomework darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework6'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0, behavior:'auto' }); }} onOpenPrevious={() => { setHomeworkVersion('previous'); setCurrentSection('DASHBOARD'); window.scrollTo({ top: 0, behavior:'auto' }); }} />;
   }
 
   return (

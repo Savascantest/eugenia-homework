@@ -1,37 +1,38 @@
 {
-  "id": "2026-09-07-d0db0400cfd",
-  "date": "2026-09-07",
-  "dateLabel": "7 September 2026",
-  "meetingKeyHash": "d0db0400cfdec2b8a7c07779b913594a8ce8d0ee15a91f1a85329a31a69f9afa",
-  "title": "Play, Go and Do: Sports in Everyday English",
-  "subtitle": "A B1 practice pack on sports verbs, temporary behaviour with being, and health-and-fitness vocabulary.",
+  "id": "2026-09-09-d2100490efd",
+  "date": "2026-09-09",
+  "dateLabel": "9 September 2026",
+  "meetingKeyHash": "d2100490efd9909c34e790ad5c5a03cdad1c50595901d5967748a02efba2eb38",
+  "title": "Future Plans, Predictions and Healthy Habits",
+  "subtitle": "A B1 practice pack on will, be going to, the 21-Day Challenge and mental-health vocabulary.",
   "teacherNote": {
     "detected": true,
     "applied": true,
-    "summary": "The new lesson adds play, go and do with sports, temporary behaviour with being, health vocabulary, four shuffled choices, messaging-style conversations, and B1 reading practice while preserving the approved platform."
+    "summary": "The lesson adds will and be going to, healthy-habit and mental-health vocabulary, and keeps the platform's shuffled four-choice and messaging-style practice."
   },
   "sourceLessons": [
     { "date": "2026-08-29", "meetingKeyHash": "304f4b9683d8bf5a9d8da2087f26654c5ad97c0bda2850eb88e7efed5c188e72" },
     { "date": "2026-09-01", "meetingKeyHash": "70e747daa869c84c1d9508422b1709ab33c137d491e6c5e79e9b5b1ae4f05de3" },
-    { "date": "2026-09-07", "meetingKeyHash": "d0db0400cfdec2b8a7c07779b913594a8ce8d0ee15a91f1a85329a31a69f9afa" }
+    { "date": "2026-09-07", "meetingKeyHash": "d0db0400cfdec2b8a7c07779b913594a8ce8d0ee15a91f1a85329a31a69f9afa" },
+    { "date": "2026-09-09", "meetingKeyHash": "d2100490efd9909c34e790ad5c5a03cdad1c50595901d5967748a02efba2eb38" }
   ],
   "lessonNotes": [
-    "Use play with team games and sports with a ball, racket or other special object: play tennis, play hockey and play chess.",
-    "Use go with activities ending in -ing: go skiing, go climbing, go cycling and go ice skating.",
-    "Use do with individual activities, martial arts and exercise: do judo, do gymnastics, do yoga and do boxing.",
-    "Be can be continuous for temporary behaviour: Sam is patient is a general description, but Sam is being patient today highlights the behaviour now.",
-    "Keep health vocabulary natural: strengthen muscles, burn calories, gain or lose weight, cope with stress, suffer from stress, mop the floor and do the dishes."
+    "Use will for a quick decision, offer, promise or a prediction without present evidence: I will help you and I think it will rain.",
+    "Use be going to for an intention or a prediction with evidence: I am going to start a challenge; Look at the glass — it is going to fall.",
+    "For now, practise only will and be going to. Present simple and present continuous for future meaning will come later.",
+    "Healthy-habit vocabulary from the lesson includes break a habit, take up a hobby, cope with stress, mental health, stamina and endurance.",
+    "A 21-Day Challenge is a useful context for plans: What are you going to change? What will help you continue?"
   ],
   "grammar": [
     {
-      "title": "The core pattern",
-      "rule": "Use the present simple for a state that is true now or generally true. Do not add -ing just because the state is true at this moment.",
-      "examples": ["Lena wants some water.", "Omar understands the rule.", "This key belongs to Rosa."]
+      "title": "Will: decisions, offers and predictions",
+      "rule": "Use will for a decision made now, an offer or promise, and a prediction based on opinion rather than visible evidence.",
+      "examples": ["I will help you with the challenge.", "I think the habit will be difficult at first.", "I will not give up."]
     },
     {
-      "title": "Thoughts, opinions and knowledge",
-      "rule": "Know, believe, understand, remember, mean, agree, doubt and think when it means have an opinion are usually stative.",
-      "examples": ["I believe your story.", "Kai remembers the address.", "We think the plan is sensible."]
+      "title": "Be going to: intention and evidence",
+      "rule": "Use be going to for a plan you already have or a prediction supported by what you can see now.",
+      "examples": ["Mira is going to take up swimming.", "The cat is going to knock over the glass.", "We are going to try the 21-Day Challenge."]
     },
     {
       "title": "Feelings, needs and preferences",
@@ -203,9 +204,9 @@
     { "q": "Choose the temporary behaviour.", "opt": ["Omar is being unusually patient with the new players today.", "Omar being unusually patient with the new players today.", "Omar is unusually patient with the new players every day today."], "a": "Omar is being unusually patient with the new players today.", "why": "Be can be continuous for deliberate or temporary behaviour." }
   ],
   "practice": [
-    { "q": "Choose the correct sports collocation.", "opt": ["We play tennis on Fridays.", "We do tennis on Fridays.", "We go tennis on Fridays."], "a": "We play tennis on Fridays.", "why": "Use play with tennis and similar ball or racket sports." },
-    { "q": "Choose the correct sports collocation.", "opt": ["They go cycling after work.", "They play cycling after work.", "They do cycling after work."], "a": "They go cycling after work.", "why": "Use go with activities ending in -ing." },
-    { "q": "Choose the correct sports collocation.", "opt": ["We do yoga before breakfast.", "We play yoga before breakfast.", "We go yoga before breakfast."], "a": "We do yoga before breakfast.", "why": "Use do with yoga, gymnastics and martial arts." },
+    { "q": "You decide at this moment to begin a new habit. Choose the natural sentence.", "opt": ["I will start a 21-Day Challenge today.", "I am going to start a 21-Day Challenge today because I see the result.", "I will to start a 21-Day Challenge today."], "a": "I will start a 21-Day Challenge today.", "why": "Use will for a decision made at the moment of speaking." },
+    { "q": "Choose the sentence about an intention.", "opt": ["I am going to take up yoga this month.", "I will going to take up yoga this month.", "I am going take up yoga this month."], "a": "I am going to take up yoga this month.", "why": "Use be going to for a plan or intention." },
+    { "q": "There is clear evidence: the glass is at the edge of the table. Choose the natural prediction.", "opt": ["It is going to fall.", "It will going to fall.", "It going to fall."], "a": "It is going to fall.", "why": "Use be going to when you can see evidence now." },
     { "q": "Choose the natural health phrase.", "opt": ["Walking helps me cope with stress.", "Walking helps me cope stress.", "Walking helps me cope at stress."], "a": "Walking helps me cope with stress.", "why": "The fixed phrase is cope with stress." },
     { "q": "Choose the correct sentence.", "opt": ["This exercise strengthens your back muscles.", "This exercise is strengthening your back muscles every day.", "This exercise strengthen your back muscles."], "a": "This exercise strengthens your back muscles.", "why": "Use the present simple for a general effect." },
     { "q": "Choose the natural preference sentence.", "opt": ["Maya really likes going climbing.", "Maya is really liking going climbing.", "Maya really like going climbing."], "a": "Maya really likes going climbing.", "why": "Like is normally stative; really comes before like." },

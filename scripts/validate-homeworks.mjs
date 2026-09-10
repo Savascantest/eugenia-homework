@@ -1,18 +1,22 @@
 import { readFile } from 'node:fs/promises';
 
 const index = JSON.parse(await readFile('public/homeworks/index.json', 'utf8'));
-if (index.length !== 6 || index[0].id !== '2026-09-07-d0db0400cfd') throw Error('Newest package or archive count is incorrect');
+if (index.length !== 7 || index[0].id !== '2026-09-09-d2100490efd') throw Error('Newest package or archive count is incorrect');
 const data = JSON.parse(await readFile(`public/homeworks/${index[0].id}/homework.json`, 'utf8'));
-if (data.meetingKeyHash !== 'd0db0400cfdec2b8a7c07779b913594a8ce8d0ee15a91f1a85329a31a69f9afa') throw Error('Meeting identity hash mismatch');
+if (data.meetingKeyHash !== 'd2100490efd9909c34e790ad5c5a03cdad1c50595901d5967748a02efba2eb38') throw Error('Meeting identity hash mismatch');
 if ('meetingUuid' in data || JSON.stringify(data).includes('AE54725F-537F-462F-9E07-A38389B3B752')) throw Error('Private meeting ID leaked');
 for (const key of ['lessonNotes','grammar','flashcards','dailyUsage','dailyQuestions','practice','conversation','quiz']) if (!data[key]?.length) throw Error(`Missing ${key}`);
 if (!data.reading?.text || !data.reading?.questions?.length || !data.listening?.script || !data.listening?.questions?.length || !data.writing?.prompt) throw Error('Reading, listening or writing is missing');
+if (data.reading.text.split('\n\n').length !== 2) throw Error('Homework 7 reading must contain exactly two paragraphs');
+if (/Curiosity Club|Hobby Fair|photography fair|numismatics/i.test(`${data.reading.text} ${data.listening.script} ${data.writing.prompt}`)) throw Error('Homework 7 still repeats an earlier reading, listening or writing theme');
 for (const set of [data.dailyQuestions, data.practice, data.conversation, data.reading.questions, data.listening.questions, data.quiz]) if (set.some(q => q.opt.length < 3 || !q.a || !q.opt.includes(q.a))) throw Error('Question data is invalid');
 const material = JSON.stringify(data);
 if (/\\bEugenia\\b/i.test(material) || /[çğıöşüÇĞİÖŞÜ]/.test(material)) throw Error('Learner material violates privacy or language rules');
-if (!/play|go|do/i.test(material) || !/cope with stress/i.test(material) || !/is being/i.test(material)) throw Error('Lesson commitments are missing');
-const component = await readFile('src/Homework20260907.jsx', 'utf8');
+if (!/will/i.test(material) || !/going to/i.test(material) || !/21-Day Challenge/i.test(material) || !/mental health/i.test(material)) throw Error('Lesson commitments are missing');
+const component = await readFile('src/Homework20260909.jsx', 'utf8');
+const homework5Component = await readFile('src/Homework20260901.jsx', 'utf8');
 const app = await readFile('src/App.jsx', 'utf8');
 if (!component.includes('None of these answers.') || !component.includes('Math.random') || !component.includes('rounded-2xl rounded-bl-md')) throw Error('Four-option shuffle or message UI missing');
-if (!app.includes("useState('homework6')") || !app.includes('<Homework20260907')) throw Error('Latest lesson is not default');
-console.log('Validated six preserved packages, private-source protection, exact hashed identity, shuffled four-choice interaction, messaging-style conversation, and latest/archive wiring.');
+if (!app.includes("useState('homework7')") || !app.includes('<Homework20260909')) throw Error('Latest lesson is not default');
+if (!app.includes('onOpenHomework6') || !homework5Component.includes('Homework 6')) throw Error('Homework 5 to Homework 6 routing is incomplete');
+console.log('Validated seven preserved packages, private-source protection, two-paragraph Homework 7 reading, current lesson coverage, shuffled four-choice interaction, and latest/archive wiring.');
