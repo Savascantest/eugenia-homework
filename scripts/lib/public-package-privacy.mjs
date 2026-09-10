@@ -52,34 +52,39 @@ function prohibitedReason(field) {
   return undefined;
 }
 
-export function collectPublicPackagePrivacyViolations(value, location = '$') {
-  const violations = [];
+export function collectPublicPackagePrivacyOccurrences(value, location = '$') {
+  const occurrences = [];
 
   if (Array.isArray(value)) {
     value.forEach((item, index) => {
-      violations.push(...collectPublicPackagePrivacyViolations(item, `${location}[${index}]`));
+      occurrences.push(...collectPublicPackagePrivacyOccurrences(item, `${location}[${index}]`));
     });
-    return violations;
+    return occurrences;
   }
 
   if (value && typeof value === 'object') {
     for (const [field, item] of Object.entries(value)) {
       const child = `${location}.${field}`;
       const reason = prohibitedReason(field);
-      if (reason) violations.push(`${child}: prohibited ${reason} field`);
-      violations.push(...collectPublicPackagePrivacyViolations(item, child));
+      if (reason) occurrences.push({ path: child, message: `prohibited ${reason} field`, value: item });
+      occurrences.push(...collectPublicPackagePrivacyOccurrences(item, child));
     }
-    return violations;
+    return occurrences;
   }
 
   if (typeof value === 'string') {
     const normalized = value.toLocaleLowerCase('en-US').replaceAll('\\', '/');
     if (normalized.includes('/private/') || normalized.includes('private-transcript')) {
-      violations.push(`${location}: private source path/value`);
+      occurrences.push({ path: location, message: 'private source path/value', value });
     }
   }
 
-  return violations;
+  return occurrences;
+}
+
+export function collectPublicPackagePrivacyViolations(value, location = '$') {
+  return collectPublicPackagePrivacyOccurrences(value, location)
+    .map(({ path: occurrencePath, message }) => `${occurrencePath}: ${message}`);
 }
 
 export function assertPublicHomeworkPackagePrivacy(homework, { source = 'HomeworkPackage' } = {}) {

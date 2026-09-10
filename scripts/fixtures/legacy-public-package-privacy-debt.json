@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Explicit, manually maintained Eugenia legacy privacy debt for the changed-package publication gate. This source is not public runtime data and does not relax the recursive privacy validator. Each entry must also exist in the Git base version with an identical canonical value.",
+  "studentKey": "eugenia",
+  "violations": [
+    {
+      "file": "2026-08-25-32EDDB85/homework.json",
+      "fields": ["$.meetingUuid", "$.teacherNote"]
+    },
+    {
+      "file": "2026-08-29-A303F12D/homework.json",
+      "fields": ["$.meetingUuid", "$.teacherNote"]
+    },
+    {
+      "file": "2026-09-01-70e747daa869/homework.json",
+      "fields": ["$.teacherNote"]
+    },
+    {
+      "file": "2026-09-07-d0db0400cfd/homework.json",
+      "fields": ["$.teacherNote"]
+    }
+  ]
+}

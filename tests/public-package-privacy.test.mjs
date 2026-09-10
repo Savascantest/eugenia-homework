@@ -1,11 +1,16 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { readFile } from 'node:fs/promises';
+import { fileURLToPath } from 'node:url';
 import {
   PublicPackagePrivacyError,
   assertPublicHomeworkPackagePrivacy,
   collectPublicPackagePrivacyViolations,
 } from '../scripts/lib/public-package-privacy.mjs';
+import {
+  assertModifiedPackagePrivacy,
+  validateChangedPublicHomeworkPackages,
+} from '../scripts/validate-public-package-privacy.mjs';
 
 const validPackage = () => ({
   id: 'public-homework-2026-09-11-a1b2c3',
@@ -59,4 +64,94 @@ test('normal lesson content, grammar notes, explanations, and archive IDs remain
 test('the public index builder does not republish raw meeting UUIDs', async () => {
   const source = await readFile(new URL('../scripts/build-homework-index.mjs', import.meta.url), 'utf8');
   assert.doesNotMatch(source, /meetingUuid/);
+});
+
+const legacyRelative = '2026-09-07-d0db0400cfd/homework.json';
+const legacyFile = fileURLToPath(new URL(`../public/homeworks/${legacyRelative}`, import.meta.url));
+const newPackageFile = fileURLToPath(new URL('../public/homeworks/2026-09-09-d2100490efd/homework.json', import.meta.url));
+const publishedBase = 'd2f79d1527f0046fa06aa6fc20d43fd31930c29b';
+const acknowledgedTeacherNote = new Set([`${legacyRelative}\u0000$.teacherNote`]);
+
+test('the changed-package gate accepts an unchanged acknowledged legacy teacher note', async () => {
+  await assert.doesNotReject(validateChangedPublicHomeworkPackages({
+    base: publishedBase,
+    entries: [{ file: legacyFile, kind: 'modified' }],
+  }));
+});
+
+test('the changed-package gate applies absolute validation to a new clean package', async () => {
+  await assert.doesNotReject(validateChangedPublicHomeworkPackages({
+    base: publishedBase,
+    entries: [{ file: newPackageFile, kind: 'new' }],
+  }));
+});
+
+test('the changed-package gate rejects a new package with a teacher note', async () => {
+  await assert.rejects(validateChangedPublicHomeworkPackages({
+    base: publishedBase,
+    entries: [{ file: legacyFile, kind: 'new' }],
+  }), PublicPackagePrivacyError);
+});
+
+test('removing an acknowledged legacy occurrence is allowed', () => {
+  assert.doesNotThrow(() => assertModifiedPackagePrivacy({
+    current: validPackage(),
+    baseHomeworkPackage: { ...validPackage(), teacherNote: 'historical note' },
+    relative: legacyRelative,
+    allowedDebtPaths: acknowledgedTeacherNote,
+    source: legacyRelative,
+  }));
+});
+
+for (const [name, current] of [
+  ['changing a legacy teacher note', { ...validPackage(), teacherNote: 'changed note' }],
+  ['expanding a legacy teacher note', { ...validPackage(), teacherNote: 'historical note plus more' }],
+  ['adding another prohibited field', { ...validPackage(), teacherNote: 'historical note', meetingUuid: 'new-id' }],
+  ['adding another prohibited occurrence', {
+    ...validPackage(),
+    teacherNote: 'historical note',
+    exercises: [{ prompt: 'Choose.', teacherNote: 'another note' }],
+  }],
+]) {
+  test(`${name} fails the legacy baseline gate`, () => {
+    assert.throws(() => assertModifiedPackagePrivacy({
+      current,
+      baseHomeworkPackage: { ...validPackage(), teacherNote: 'historical note' },
+      relative: legacyRelative,
+      allowedDebtPaths: acknowledgedTeacherNote,
+      source: legacyRelative,
+    }), /new, changed, or not explicitly acknowledged legacy debt/);
+  });
+}
+
+test('an unacknowledged legacy occurrence fails the changed-package gate', () => {
+  assert.throws(() => assertModifiedPackagePrivacy({
+    current: { ...validPackage(), teacherNote: 'historical note' },
+    baseHomeworkPackage: { ...validPackage(), teacherNote: 'historical note' },
+    relative: legacyRelative,
+    allowedDebtPaths: new Set(),
+    source: legacyRelative,
+  }), /not explicitly acknowledged legacy debt/);
+});
+
+test('a modified package with no base package fails closed', async () => {
+  await assert.rejects(validateChangedPublicHomeworkPackages({
+    base: publishedBase,
+    entries: [{ file: newPackageFile, kind: 'modified' }],
+  }), /Unable to read base package/);
+});
+
+test('a modified clean package with no readable base fails closed', async () => {
+  await assert.rejects(validateChangedPublicHomeworkPackages({
+    base: '',
+    entries: [{ file: newPackageFile, kind: 'modified' }],
+  }), /requires a readable base commit/);
+});
+
+test('missing legacy debt data fails closed when a modified package requires it', async () => {
+  await assert.rejects(validateChangedPublicHomeworkPackages({
+    base: publishedBase,
+    entries: [{ file: legacyFile, kind: 'modified' }],
+    loadDebtPaths: async () => { throw new Error('debt data unavailable'); },
+  }), /debt data unavailable/);
 });
