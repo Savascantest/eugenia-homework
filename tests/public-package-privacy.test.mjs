@@ -40,14 +40,32 @@ for (const [name, field, value] of [
   ['teacher note', 'teacherNote', 'private teacher evidence'],
   ['private source evidence', 'privateSourceEvidence', { checked: true }],
   ['compound teacher evidence variant', 'private_teacher_source_evidence', { checked: true }],
+  ['nested LessonRecord reference', 'lessonRecordRef', { id: 'private-record-1' }],
+  ['nested router state', 'routerState', { status: 'dispatching' }],
+  ['execution receipt', 'executionReceiptId', 'private-receipt-1'],
+  ['private planning record', 'planningRecord', { instruction: 'private' }],
+  ['private source hash', 'sourceEvidenceHash', 'abc123'],
 ]) {
   test(`${name} is rejected`, () => {
     assert.throws(
-      () => assertPublicHomeworkPackagePrivacy({ ...validPackage(), [field]: value }),
+      () => assertPublicHomeworkPackagePrivacy({ ...validPackage(), diagnostics: { [field]: value } }),
       PublicPackagePrivacyError,
     );
   });
 }
+
+test('a private filesystem path is rejected at any nested value', () => {
+  const homework = validPackage();
+  homework.exercises[0].debug = { path: 'C:/Users/teacher/work/private/lesson.json' };
+  assert.throws(() => assertPublicHomeworkPackagePrivacy(homework), PublicPackagePrivacyError);
+});
+
+test('a structurally private receipt is rejected', () => {
+  assert.throws(
+    () => assertPublicHomeworkPackagePrivacy({ ...validPackage(), receipt: { executionId: 'private' } }),
+    PublicPackagePrivacyError,
+  );
+});
 
 test('nested prohibited fields are rejected with their object path', () => {
   const homework = validPackage();
@@ -58,6 +76,15 @@ test('nested prohibited fields are rejected with their object path', () => {
 
 test('normal lesson content, grammar notes, explanations, and archive IDs remain allowed', () => {
   const homework = { ...validPackage(), archiveId: 'archive-homework-7' };
+  assert.deepEqual(collectPublicPackagePrivacyViolations(homework), []);
+});
+
+test('normal learner-facing uses of planning, teacher, lesson, and public resource URLs remain allowed', () => {
+  const homework = {
+    ...validPackage(),
+    lessonNotes: ['Your teacher will help you plan the next lesson.'],
+    resources: [{ label: 'Listening source', url: 'https://learnenglish.britishcouncil.org/' }],
+  };
   assert.deepEqual(collectPublicPackagePrivacyViolations(homework), []);
 });
 

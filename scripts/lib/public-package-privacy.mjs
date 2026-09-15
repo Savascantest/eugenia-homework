@@ -23,7 +23,26 @@ const PROHIBITED_FIELD_REASONS = new Map([
   ['teachernotes', 'private teacher notes'],
   ['privateevidence', 'private execution evidence'],
   ['executionreceipt', 'private execution evidence'],
+  ['executionreceiptid', 'private execution evidence'],
   ['validationreport', 'private execution evidence'],
+  ['lessonrecord', 'private LessonRecord reference'],
+  ['lessonrecordid', 'private LessonRecord reference'],
+  ['lessonrecordref', 'private LessonRecord reference'],
+  ['lessonrecords', 'private LessonRecord reference'],
+  ['router', 'private router state'],
+  ['routerstate', 'private router state'],
+  ['routerrun', 'private router state'],
+  ['routerrunid', 'private router state'],
+  ['routingstate', 'private router state'],
+  ['privateplanning', 'private planning metadata'],
+  ['planningnotes', 'private planning metadata'],
+  ['planningrecord', 'private planning metadata'],
+  ['internalplanning', 'private planning metadata'],
+  ['sourcehash', 'private source hash'],
+  ['sourcehashes', 'private source hash'],
+  ['privatesourcehash', 'private source hash'],
+  ['sourceevidencehash', 'private source hash'],
+  ['privatefilesystempath', 'private filesystem path'],
 ]);
 
 export class PublicPackagePrivacyError extends Error {
@@ -39,7 +58,7 @@ export function normalizeFieldName(value) {
   return String(value).toLocaleLowerCase('en-US').replace(/[^a-z0-9]/g, '');
 }
 
-function prohibitedReason(field) {
+function prohibitedReason(field, value) {
   const normalized = normalizeFieldName(field);
   const exact = PROHIBITED_FIELD_REASONS.get(normalized);
   if (exact) return exact;
@@ -48,6 +67,9 @@ function prohibitedReason(field) {
   if (/teacher(?:source)?notes?$/.test(normalized)) return 'private teacher note';
   if (normalized.includes('evidence') && /(private|source|teacher|execution)/.test(normalized)) {
     return 'private source, teacher, or execution evidence';
+  }
+  if (normalized === 'receipt' && value && typeof value === 'object') {
+    return 'private execution evidence';
   }
   return undefined;
 }
@@ -65,7 +87,7 @@ export function collectPublicPackagePrivacyOccurrences(value, location = '$') {
   if (value && typeof value === 'object') {
     for (const [field, item] of Object.entries(value)) {
       const child = `${location}.${field}`;
-      const reason = prohibitedReason(field);
+      const reason = prohibitedReason(field, item);
       if (reason) occurrences.push({ path: child, message: `prohibited ${reason} field`, value: item });
       occurrences.push(...collectPublicPackagePrivacyOccurrences(item, child));
     }
@@ -74,7 +96,12 @@ export function collectPublicPackagePrivacyOccurrences(value, location = '$') {
 
   if (typeof value === 'string') {
     const normalized = value.toLocaleLowerCase('en-US').replaceAll('\\', '/');
-    if (normalized.includes('/private/') || normalized.includes('private-transcript')) {
+    if (
+      normalized.includes('/private/')
+      || normalized.includes('private-transcript')
+      || /^[a-z]:\/users\//.test(normalized)
+      || /^\/home\//.test(normalized)
+    ) {
       occurrences.push({ path: location, message: 'private source path/value', value });
     }
   }
