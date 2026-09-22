@@ -1,0 +1,88 @@
+{
+  "id": "2026-09-20-k7m2p9x4q8",
+  "date": "2026-09-20",
+  "dateLabel": "20 September 2026",
+  "title": "Progress-Test Revision: Sport, Questions and Future Plans",
+  "subtitle": "A2+/B1 revision practice for sports, competition language, questions and future forms.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "This is revision for the next progress test: listening, grammar, vocabulary and reading.",
+    "Review sports and active-lifestyle words, then use competition language such as fair chance, compete, qualify and succeed.",
+    "Make questions carefully: use do/does for Present Simple and am/is/are for Present Continuous.",
+    "Use will for a decision or promise made now. Use be going to for an existing intention or plan."
+  ],
+  "grammar": [
+    { "title": "Present Simple and Present Continuous", "rule": "Use Present Simple for routines and facts. Use Present Continuous for an action happening now or around now.", "examples": ["She plays softball every Saturday.", "They are climbing at the sports centre now.", "What does he watch after school?"] },
+    { "title": "Question formation", "rule": "Choose the auxiliary that matches the tense, then put the subject after it.", "examples": ["What does your sister love watching?", "Why are the players practising today?", "Where do you usually go surfing?"] },
+    { "title": "Will and be going to", "rule": "Use will for a quick decision or promise. Use be going to for an intention that already exists.", "examples": ["I will call you after the match.", "We are going to practise for the progress test.", "I will not show off, I promise."] }
+  ],
+  "vocabulary": [
+    { "word": "skateboarding", "meaning": "the sport of riding and doing tricks on a skateboard", "example": "Skateboarding is part of many international events." },
+    { "word": "fair chance", "meaning": "an equal opportunity for everyone", "example": "Clear rules give every player a fair chance." },
+    { "word": "compete", "meaning": "to take part in a competition", "example": "Teams compete to reach the final." },
+    { "word": "qualify", "meaning": "to reach the standard needed to join an event", "example": "Only the best runners qualify for the next round." },
+    { "word": "succeed", "meaning": "to achieve what you try to do", "example": "She succeeded in finishing the climbing course." },
+    { "word": "adapt", "meaning": "to change something so it suits a new situation", "example": "The club adapted the rules for younger players." },
+    { "word": "inspire", "meaning": "to give someone an idea or wish to do something", "example": "The athlete inspires young people to get active." },
+    { "word": "show off", "meaning": "to try to make people notice your skill or success", "example": "He can show off his skateboard skills at the park." }
+  ],
+  "practice": [
+    { "q": "Choose the correct question about a routine.", "opt": ["What does Mia do after school?", "What is Mia do after school?", "What do Mia does after school?"], "a": "What does Mia do after school?", "why": "Use does + the base verb for a Present Simple question with she/he/it." },
+    { "q": "Choose the correct question about an action now.", "opt": ["Why the players are practising now?", "Why are the players practising now?", "Why do the players practising now?"], "a": "Why are the players practising now?", "why": "Use are + subject + verb-ing for Present Continuous." },
+    { "q": "You decide now to help your teammate. Choose the natural sentence.", "opt": ["I am going to help you now.", "I will helping you now.", "I will help you now."], "a": "I will help you now.", "why": "Will can show a decision made at the moment of speaking." },
+    { "q": "Choose the sentence about a plan that already exists.", "opt": ["We are going to practise for the test tonight.", "We will to practise for the test tonight.", "We going to practise for the test tonight."], "a": "We are going to practise for the test tonight.", "why": "Use be going to for an existing intention or plan." },
+    { "q": "Choose the natural competition sentence.", "opt": ["Every team deserves a fair chance.", "Every team deserves a fair change.", "Every team deserves fair chance to."], "a": "Every team deserves a fair chance.", "why": "A fair chance means an equal opportunity." },
+    { "q": "Choose the correct form.", "opt": ["She succeeded to win the race.", "She succeeded in winning the race.", "She succeeded at win the race."], "a": "She succeeded in winning the race.", "why": "Use succeed in + verb-ing." }
+  ],
+  "reading": {
+    "level": "B1",
+    "title": "A New Olympic Challenge",
+    "text": "At a city skate park, teenagers practise jumps and turns after school. Some of them enjoy showing off their skills, but they also help new skaters. The local club has adapted its beginner sessions so that younger children can join safely. For many visitors, skateboarding is more than a sport: it can inspire people to be active and try something new.\n\nNext month, the club is holding a small competition. The organisers want every skater to have a fair chance, so the rules are clear and the judges will explain their decisions. Only three skaters will qualify for the final. Lina is going to enter because she has trained for weeks. Her friend says, “I will come and support you.” Lina hopes to succeed, but she knows that enjoying the event matters too.",
+    "questions": [
+      { "q": "Why did the club adapt its beginner sessions?", "opt": ["To make them safer for younger children", "To stop visitors using the park", "To teach baseball instead"], "a": "To make them safer for younger children", "why": "The first paragraph gives this reason." },
+      { "q": "What does the competition aim to give every skater?", "opt": ["A free skateboard", "A fair chance", "A private lesson"], "a": "A fair chance", "why": "The organisers want equal opportunity." },
+      { "q": "Why is Lina going to enter?", "opt": ["She has trained for weeks", "She has already won", "Her friend refuses to help"], "a": "She has trained for weeks", "why": "This is an existing intention supported by preparation." },
+      { "q": "What will Lina's friend do?", "opt": ["Judge the final", "Adapt the rules", "Support Lina at the event"], "a": "Support Lina at the event", "why": "The friend makes a promise with will." }
+    ]
+  },
+  "listening": {
+    "title": "Preparing for the Competition",
+    "level": "A2+/B1",
+    "instructions": "Listen twice. First, listen for the plan. Then listen again for the grammar and competition vocabulary.",
+    "script": "Noah: Are you doing anything after school, Ava?\nAva: Yes, I am going to practise climbing. Our club is preparing for a competition.\nNoah: Do you compete often?\nAva: Not usually. This is my first event, but I hope I will qualify for the final.\nNoah: I will come and watch.\nAva: Thanks. The coaches are giving every climber a fair chance, so I feel calmer.\nNoah: Great. Do not show off too much!\nAva: I will not. I just want to enjoy it and succeed in finishing the route.",
+    "questions": [
+      { "q": "What is Ava going to practise?", "opt": ["Climbing", "Surfing", "Softball"], "a": "Climbing", "why": "Ava states her plan directly." },
+      { "q": "Why is Ava practising?", "opt": ["She is preparing for a competition", "She is buying new equipment", "She is teaching a lesson"], "a": "She is preparing for a competition", "why": "The club is preparing for an event." },
+      { "q": "What does Noah promise?", "opt": ["He will judge the competition", "He will come and watch", "He will change the rules"], "a": "He will come and watch", "why": "Will introduces a promise." },
+      { "q": "What does Ava want to succeed in doing?", "opt": ["Finishing the route", "Showing off", "Choosing the judges"], "a": "Finishing the route", "why": "Use succeed in + verb-ing." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write 80–110 words about a fictional person preparing for a sport or active-lifestyle event. Include what they usually do, what they are doing now, one question they ask, one plan with be going to, and one promise with will. Use at least three words from this unit, such as compete, fair chance, qualify, succeed, inspire, adapt or show off.",
+    "checklist": ["Use a fictional name", "Use Present Simple and Present Continuous", "Include one well-formed question", "Use be going to for a plan", "Use will for a promise or quick decision", "Use at least three unit words", "Write 80–110 words"]
+  },
+  "quiz": [
+    { "q": "Which sport uses a skateboard?", "opt": ["Skateboarding", "Surfing", "Softball", "Climbing"], "a": "Skateboarding" },
+    { "q": "Choose the natural phrase.", "opt": ["give a chance fair", "give everyone a fair chance", "give a fair everyone chance", "give chance to fair"], "a": "give everyone a fair chance" },
+    { "q": "Choose the correct question.", "opt": ["Where she practises?", "Where is she practise?", "Where does she practise?", "Where do she practise?"], "a": "Where does she practise?" },
+    { "q": "Which sentence describes an action happening now?", "opt": ["They train on Saturdays.", "They are train now.", "They training now.", "They are training now."], "a": "They are training now." },
+    { "q": "Choose the best completion: Only three runners can ____ for the final.", "opt": ["qualify", "fair", "adapt", "inspire"], "a": "qualify" },
+    { "q": "Choose the correct phrase.", "opt": ["succeed to finish", "succeed in finishing", "succeed at to finish", "succeed finishing in"], "a": "succeed in finishing" },
+    { "q": "What does adapt mean here: The coach adapted the game for children?", "opt": ["To win it", "To copy it", "To change it for a new situation", "To show it off"], "a": "To change it for a new situation" },
+    { "q": "Choose the promise.", "opt": ["I will help you after practice.", "I am going to help you after practice because I planned it yesterday.", "I helping you after practice.", "I will to help you after practice."], "a": "I will help you after practice." },
+    { "q": "Choose the plan.", "opt": ["I will decide now.", "I am going to join the climbing club next month.", "I am join the climbing club next month.", "I will joining the climbing club next month."], "a": "I am going to join the climbing club next month." },
+    { "q": "Which sentence is Present Simple?", "opt": ["She plays softball every week.", "She is playing softball now.", "She playing softball every week.", "She does playing softball every week."], "a": "She plays softball every week." },
+    { "q": "Choose the correct question about now.", "opt": ["What do the player pass now?", "What the player is passing now?", "What is the player passing now?", "What does the player passing now?"], "a": "What is the player passing now?" },
+    { "q": "To show off means to…", "opt": ["hide a mistake", "try to make people notice your skill", "change a rule", "join a competition"], "a": "try to make people notice your skill" },
+    { "q": "Choose the correct sport word.", "opt": ["go softball", "do baseball", "play climbing", "go surfing"], "a": "go surfing" },
+    { "q": "Which sentence is fair?", "opt": ["One team gets extra points without a reason.", "Everyone follows the same clear rules.", "The judges choose friends only.", "Only one player can practise."], "a": "Everyone follows the same clear rules." },
+    { "q": "Choose the best sentence.", "opt": ["The athlete inspires young people to get active.", "The athlete inspire young people getting active.", "The athlete is inspire young people.", "The athlete inspiring young people to active."], "a": "The athlete inspires young people to get active." },
+    { "q": "Choose the correct completion: I ____ call you later; I promise.", "opt": ["am going to", "am", "will", "do"], "a": "will" },
+    { "q": "Which is a sport or activity from the unit?", "opt": ["Qualification", "Fairness", "Success", "Softball"], "a": "Softball" },
+    { "q": "Choose the correct question about the competition.", "opt": ["Why they are competing?", "Why are they competing?", "Why do they competing?", "Why they compete are?"], "a": "Why are they competing?" },
+    { "q": "Choose the natural sentence.", "opt": ["She going to practise because she has a plan.", "She will to practise because she has a plan.", "She is practise because she has a plan.", "She is going to practise because she has a plan."], "a": "She is going to practise because she has a plan." },
+    { "q": "What should a progress-test revision help you do?", "opt": ["Claim mastery immediately", "Avoid all feedback", "Prepare with practice and retry", "Skip reading and listening"], "a": "Prepare with practice and retry" }
+  ]
+}
