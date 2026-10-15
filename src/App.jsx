@@ -7,6 +7,7 @@ import Homework20260907 from './Homework20260907';
 import Homework20260909 from './Homework20260909';
 import Homework20260920 from './Homework20260920';
 import Homework20261011 from './Homework20261011';
+import Homework20261015 from './Homework20261015';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -934,7 +935,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework9');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework10');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1015,8 +1016,11 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework10') {
+    return <Homework20261015 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework9'); window.scrollTo({top:0}); }} />;
+  }
   if (homeworkVersion === 'homework9') {
-    return <Homework20261011 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework8'); window.scrollTo({top:0}); }} />;
+    return <Homework20261011 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenLatest={() => { setHomeworkVersion('homework10'); window.scrollTo({top:0}); }} onOpenPrevious={() => { setHomeworkVersion('homework8'); window.scrollTo({top:0}); }} />;
   }
   if (homeworkVersion === 'homework8') {
     return <Homework20260920 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework7'); window.scrollTo({top:0}); }} />;
