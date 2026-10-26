@@ -1,0 +1,88 @@
+{
+  "id": "2026-10-25-r8v3n6k1m5",
+  "date": "2026-10-25",
+  "dateLabel": "25 October 2026",
+  "title": "Past Habits, Friendships and Storytelling",
+  "subtitle": "A2+/B1 practice on used to, past stories, class reunions and friendship vocabulary.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "Use used to + base verb for a past habit or state that is no longer true.",
+    "For a past story, use Past Continuous for an action in progress and Past Simple for a shorter completed event.",
+    "Use in for months, years and longer periods; on for days and dates; at for exact times.",
+    "Build stories with first, then, afterwards and finally."
+  ],
+  "grammar": [
+    { "title": "Used to: past habits and states", "rule": "Use used to + base verb for something that was true or regular in the past but is different now. In negatives and questions, use did not use to / Did ... use to?", "examples": ["I used to be shy.", "She did not use to like ice skating.", "Did you use to meet classmates after school?"] },
+    { "title": "Past Simple and Past Continuous", "rule": "Use Past Continuous for background actions in progress. Use Past Simple for a shorter action that happened during or after them.", "examples": ["I was walking home when I ran into a friend.", "While they were talking, the bus arrived.", "We met at a reunion last year."] },
+    { "title": "Time and sequence", "rule": "Use in, on and at accurately, then connect events in a clear order.", "examples": ["in October", "on Tuesday", "at 6 p.m."] }
+  ],
+  "vocabulary": [
+    { "word": "class reunion", "meaning": "a meeting of former classmates after a long time", "example": "They met again at a class reunion." },
+    { "word": "drop out of school", "meaning": "to leave school before completing a course", "example": "He did not drop out of school; he finished his course." },
+    { "word": "skip school", "meaning": "to stay away from school without permission", "example": "She never used to skip school." },
+    { "word": "genuine", "meaning": "real, honest and sincere", "example": "A genuine friend listens carefully." },
+    { "word": "break the ice", "meaning": "to make people feel more comfortable when they first meet", "example": "A simple question can break the ice." },
+    { "word": "run into", "meaning": "to meet someone by chance", "example": "I ran into an old classmate at the station." },
+    { "word": "in strict confidence", "meaning": "secretly and with trust", "example": "She told her friend the news in strict confidence." },
+    { "word": "get something off your chest", "meaning": "to talk about a worry or feeling", "example": "Talking helped him get it off his chest." }
+  ],
+  "practice": [
+    { "q": "Choose the correct sentence about a changed past habit.", "opt": ["I used to play chess after school.", "I use to played chess after school.", "I was use to play chess after school."], "a": "I used to play chess after school.", "why": "Use used to + base verb." },
+    { "q": "Choose the correct negative form.", "opt": ["She did not used to enjoy coffee.", "She did not use to enjoy coffee.", "She did not use enjoyed coffee."], "a": "She did not use to enjoy coffee.", "why": "After did not, use the base form: use." },
+    { "q": "Choose the best story sentence.", "opt": ["While I walked, I was seeing my friend.", "While I was walking, I ran into my friend.", "While I was walk, I ran into my friend."], "a": "While I was walking, I ran into my friend.", "why": "The longer action is Past Continuous; the shorter event is Past Simple." },
+    { "q": "Choose the correct time phrase.", "opt": ["at October", "on 7 p.m.", "in October"], "a": "in October", "why": "Use in with months." },
+    { "q": "What does break the ice mean?", "opt": ["Make a first meeting feel easier", "End a friendship", "Change the weather"], "a": "Make a first meeting feel easier", "why": "It means making people more comfortable when they first meet." },
+    { "q": "Choose the correct question.", "opt": ["Did you use to live here?", "Did you used to live here?", "Were you use to live here?"], "a": "Did you use to live here?", "why": "Use did + base verb in questions." }
+  ],
+  "reading": {
+    "level": "B1",
+    "title": "The Unexpected Class Reunion",
+    "text": "When Maya was at school, she used to be quiet and spend most breaks reading. Her friend Lina was more sociable and always knew how to break the ice with new people. Although they had different personalities, they shared a genuine interest in travel and animals. After they left school, they lost contact for several years.\n\nLast Saturday, Maya was waiting for a train when she ran into Lina. Lina invited her to a class reunion that evening. At first Maya was nervous, but she went. Former classmates told stories, laughed about school days and talked in strict confidence about old worries. Afterwards, Maya felt happier because she had finally got something off her chest: she missed having close friends.",
+    "questions": [
+      { "q": "What did Maya use to do during breaks?", "opt": ["Read", "Play football", "Organise parties"], "a": "Read", "why": "The text says she spent most breaks reading." },
+      { "q": "When did Maya run into Lina?", "opt": ["While she was waiting for a train", "At school", "During a class"], "a": "While she was waiting for a train", "why": "This is the background action in the story." },
+      { "q": "Why did Maya feel happier afterwards?", "opt": ["She won a prize", "She talked honestly about a worry", "She moved to another city"], "a": "She talked honestly about a worry", "why": "She got something off her chest." },
+      { "q": "Which word best describes Lina?", "opt": ["Sociable", "Silent", "Unfriendly"], "a": "Sociable", "why": "She could break the ice with new people." }
+    ]
+  },
+  "listening": {
+    "title": "Meeting an Old Friend",
+    "level": "A2+/B1",
+    "instructions": "Listen twice. First, listen for the main story. Then listen again for the past forms and time expressions.",
+    "script": "Sam: Did you go to the reunion last night?\nNora: Yes. I did not want to go at first because I used to be very shy at school.\nSam: What changed your mind?\nNora: I was walking home when I ran into my old friend Eva. She said, ‘I will go with you.’\nSam: Was it difficult to talk to people?\nNora: No. Eva broke the ice, and afterwards I spoke to many classmates.\nSam: Great. Are you going to meet them again?\nNora: Yes, we are going to have coffee on Saturday at 11.",
+    "questions": [
+      { "q": "Why did Nora not want to go at first?", "opt": ["She was travelling", "She used to be shy", "She had no invitation"], "a": "She used to be shy", "why": "Nora explains this directly." },
+      { "q": "What was Nora doing when she met Eva?", "opt": ["Having coffee", "Waiting at school", "Walking home"], "a": "Walking home", "why": "Use Past Continuous for the action in progress." },
+      { "q": "What did Eva do?", "opt": ["She cancelled the reunion", "She called a teacher", "She went with Nora"], "a": "She went with Nora", "why": "Eva makes an offer with will." },
+      { "q": "When are they going to have coffee?", "opt": ["Saturday at 11", "Friday at 7", "Monday at 9"], "a": "Saturday at 11", "why": "This is their plan." }
+    ]
+  },
+  "writing": {
+    "prompt": "Write 80–110 words about a fictional person who meets an old friend or goes to a class reunion. Use used to for one past habit or state, Past Continuous + Past Simple for one event, and at least three unit expressions. Add one time phrase with in, on or at, and finish with a future plan.",
+    "checklist": ["Use a fictional name", "Use used to + base verb", "Use Past Continuous and Past Simple", "Use three unit expressions", "Use one correct time preposition", "Finish with a future plan", "Write 80–110 words"]
+  },
+  "quiz": [
+    { "q": "Choose the correct past habit.", "opt": ["I used to draw maps.", "I use to drew maps.", "I used drawing maps.", "I was use to draw maps."], "a": "I used to draw maps." },
+    { "q": "Choose the correct negative.", "opt": ["He did not used to skate.", "He did not use to skate.", "He did not use skated.", "He not use to skate."], "a": "He did not use to skate." },
+    { "q": "Choose the correct question.", "opt": ["Did she used to be shy?", "Was she use to be shy?", "Did she use to be shy?", "Does she use to be shy?"], "a": "Did she use to be shy?" },
+    { "q": "Choose the best story sentence.", "opt": ["I was waiting when the train arrived.", "I waited when the train was arriving.", "I was wait when the train arrived.", "I waiting when the train arrived."], "a": "I was waiting when the train arrived." },
+    { "q": "Complete: We met ___ Friday.", "opt": ["in", "at", "by", "on"], "a": "on" },
+    { "q": "Complete: The meeting starts ___ 6:30.", "opt": ["in", "at", "on", "for"], "a": "at" },
+    { "q": "Complete: She travelled there ___ July.", "opt": ["at", "on", "in", "by"], "a": "in" },
+    { "q": "What does run into mean?", "opt": ["Run quickly", "Leave school", "Tell a secret", "Meet by chance"], "a": "Meet by chance" },
+    { "q": "What does a genuine friend do?", "opt": ["Never listens", "Skips school", "Shows off", "Acts honestly and sincerely"], "a": "Acts honestly and sincerely" },
+    { "q": "What does break the ice mean?", "opt": ["End a meeting", "Make a new situation less uncomfortable", "Freeze water", "Leave early"], "a": "Make a new situation less uncomfortable" },
+    { "q": "Choose the correct sentence.", "opt": ["While they talked, I was arriving.", "While they were talking, I arrived.", "While they were talk, I arrived.", "While they talk, I arrived."], "a": "While they were talking, I arrived." },
+    { "q": "A class reunion is…", "opt": ["A new subject", "A train journey", "A school rule", "A meeting of former classmates"], "a": "A meeting of former classmates" },
+    { "q": "Choose the correct phrase.", "opt": ["get something from your chest", "get your chest off", "get off something chest", "get something off your chest"], "a": "get something off your chest" },
+    { "q": "In strict confidence means…", "opt": ["In public", "With trust and secrecy", "Very loudly", "At school"], "a": "With trust and secrecy" },
+    { "q": "Choose the correct connector.", "opt": ["At, on, in, for", "Did, used, while, at", "Genuine, shy, school, friend", "First, then, afterwards, finally"], "a": "First, then, afterwards, finally" },
+    { "q": "Choose the future plan.", "opt": ["We meeting on Sunday.", "We are meet on Sunday.", "We are going to meet on Sunday.", "We will to meet on Sunday."], "a": "We are going to meet on Sunday." },
+    { "q": "Choose the promise.", "opt": ["I going to go with you yesterday.", "I am go with you.", "I will go with you.", "I will going with you."], "a": "I will go with you." },
+    { "q": "Choose the correct form after did not.", "opt": ["went", "going", "go", "goes"], "a": "go" },
+    { "q": "Which sentence is about a finished past event?", "opt": ["They were talking.", "They met at the station.", "They are meeting now.", "They meet every week."], "a": "They met at the station." },
+    { "q": "What should you do after a formative quiz?", "opt": ["Use feedback and retry", "Claim mastery", "Stop practising", "Delete your work"], "a": "Use feedback and retry" }
+  ]
+}
