@@ -1,0 +1,18 @@
+{
+  "id": "2026-11-01-people-and-plans-12",
+  "date": "2026-11-01",
+  "dateLabel": "1 November 2026",
+  "title": "Connections, Questions & Making Plans",
+  "subtitle": "B1 practice with relationships, subject and object questions, friendly suggestions and arrangements.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": ["Use subject questions to ask who or what does an action.", "Use object questions to ask who or what receives an action.", "Use should, could, Why don't we and How about for friendly suggestions.", "Use clear time and place phrases to arrange a meeting."],
+  "grammar": [{"title":"Subject and object questions","rule":"Ask accurately about the person who does an action and the person who receives it.","examples":["Who called?","Who did you call?"]},{"title":"Suggestions and arrangements","rule":"Offer friendly ideas and agree a time, place and alternative plan.","examples":["Why don't we meet at six?","How about meeting at the library?"]}],
+  "vocabulary": [{"word":"colleague","meaning":"a person you work with","example":"My colleague helped me prepare for the meeting."},{"word":"keep in touch","meaning":"to continue communicating with someone","example":"They keep in touch by sending messages."},{"word":"rely on","meaning":"to trust or depend on someone","example":"You can rely on her when you need help."},{"word":"explore","meaning":"to travel around a place and learn about it","example":"We could explore the old town."}],
+  "practice": [{"q":"Choose the correct subject question.","opt":["Who invited Mia?","Who did invite Mia?","Who did Mia invite?"],"a":"Who invited Mia?","why":"Subject questions do not need did."}],
+  "reading":{"level":"B1","title":"A Welcome Committee","text":"A new resident joins a neighbourhood group, meets friendly people and makes a plan to explore the local area.","questions":[{"q":"What is the text mainly about?","opt":["Making connections in a new place","Repairing a car","Training for a race"],"a":"Making connections in a new place","why":"The text focuses on meeting people and making a plan."}]},
+  "listening":{"title":"Making arrangements","level":"A2+/B1","instructions":"Use the linked listening activities to practise clear, everyday plans.","script":"External listening tasks are linked in the interactive homework.","questions":[{"q":"Choose a polite plan-changing response.","opt":["Sorry, I'm busy. Could we meet later?","No, never.","Busy later."],"a":"Sorry, I'm busy. Could we meet later?","why":"Give a reason and offer an alternative."}]},
+  "writing":{"prompt":"Choose one of five scenario-based writing tasks about relationships, suggestions or arrangements. Write 80–110 words.","checklist":["Use a clear plan or suggestion","Use three unit words","Write 80–110 words"]},
+  "quiz":[{"q":"Choose the correct question.","opt":["Who called?","Who did called?","Who did call?"],"a":"Who called?"}]
+}
