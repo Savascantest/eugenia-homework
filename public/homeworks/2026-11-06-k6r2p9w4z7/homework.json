@@ -1,0 +1,294 @@
+{
+  "id": "2026-11-06-k6r2p9w4z7",
+  "date": "2026-11-06",
+  "dateLabel": "6 November 2026",
+  "title": "Friends, Family & Progress-Test Revision",
+  "subtitle": "B1 revision of relationships, questions, advice and interaction language.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "Revise interaction vocabulary and modal forms before the progress test.",
+    "Use subject and object questions accurately."
+  ],
+  "grammar": [
+    {
+      "title": "Questions",
+      "rule": "Use correct forms for subject and object questions."
+    },
+    {
+      "title": "Advice and suggestions",
+      "rule": "Use should, could and How about + verb-ing?"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "nostalgia",
+      "meaning": "a feeling about the past"
+    },
+    {
+      "word": "pal",
+      "meaning": "an informal word for friend"
+    },
+    {
+      "word": "make an effort",
+      "meaning": "try hard"
+    },
+    {
+      "word": "reunite",
+      "meaning": "meet again after time apart"
+    }
+  ],
+  "practice": [
+    {
+      "q": "Choose the correct question.",
+      "opt": [
+        "Who called?",
+        "Who did called?",
+        "Who did call?"
+      ],
+      "a": "Who called?"
+    }
+  ],
+  "reading": {
+    "title": "An Old Friend at the Station",
+    "text": "Two old friends meet again, discuss their changes and decide to keep in touch.",
+    "questions": [
+      {
+        "q": "What did the friends decide?",
+        "opt": [
+          "Keep in touch",
+          "Stop talking",
+          "Move together"
+        ],
+        "a": "Keep in touch"
+      }
+    ]
+  },
+  "listening": {
+    "title": "Advice and relationships",
+    "instructions": "Use the linked B1 listening collection to practise main ideas and modal verbs.",
+    "script": "External listening tasks are linked in the interactive homework.",
+    "questions": [
+      {
+        "q": "Which modal verb gives advice?",
+        "opt": [
+          "should",
+          "was",
+          "did"
+        ],
+        "a": "should"
+      }
+    ]
+  },
+  "writing": {
+    "prompt": "Write 90–120 words about an old friend, family relationship or advice after an argument.",
+    "checklist": [
+      "Use five unit words",
+      "Use questions or modal verbs accurately",
+      "Prepare for the progress test"
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Who ___ the message?",
+      "opt": [
+        "sent",
+        "did send",
+        "did sent",
+        "send"
+      ],
+      "a": "sent"
+    },
+    {
+      "q": "Who did you ___?",
+      "opt": [
+        "met",
+        "meet",
+        "meeting",
+        "meets"
+      ],
+      "a": "meet"
+    },
+    {
+      "q": "How about ___ for coffee?",
+      "opt": [
+        "meet",
+        "to meet",
+        "meeting",
+        "met"
+      ],
+      "a": "meeting"
+    },
+    {
+      "q": "You should ___ an effort.",
+      "opt": [
+        "makes",
+        "making",
+        "to make",
+        "make"
+      ],
+      "a": "make"
+    },
+    {
+      "q": "A pal is:",
+      "opt": [
+        "a friend",
+        "a relative",
+        "a teacher",
+        "a neighbour"
+      ],
+      "a": "a friend"
+    },
+    {
+      "q": "At times means:",
+      "opt": [
+        "always",
+        "sometimes",
+        "never",
+        "soon"
+      ],
+      "a": "sometimes"
+    },
+    {
+      "q": "To continue communicating is to:",
+      "opt": [
+        "fall out",
+        "make a mess",
+        "keep in touch",
+        "shout"
+      ],
+      "a": "keep in touch"
+    },
+    {
+      "q": "We could ___ later.",
+      "opt": [
+        "meeting",
+        "to meet",
+        "met",
+        "meet"
+      ],
+      "a": "meet"
+    },
+    {
+      "q": "Nostalgia is connected with:",
+      "opt": [
+        "the past",
+        "a queue",
+        "a test",
+        "a meal"
+      ],
+      "a": "the past"
+    },
+    {
+      "q": "People like chalk and cheese are:",
+      "opt": [
+        "identical",
+        "very different",
+        "relatives",
+        "late"
+      ],
+      "a": "very different"
+    },
+    {
+      "q": "You can ___ on a trusted friend.",
+      "opt": [
+        "relies",
+        "relying",
+        "rely",
+        "relied"
+      ],
+      "a": "rely"
+    },
+    {
+      "q": "Choose a suggestion.",
+      "opt": [
+        "Why we don’t talk?",
+        "Why don’t talk?",
+        "Why talk we?",
+        "Why don’t we talk?"
+      ],
+      "a": "Why don’t we talk?"
+    },
+    {
+      "q": "To meet again after years is to:",
+      "opt": [
+        "reunite",
+        "argue",
+        "warn",
+        "admit"
+      ],
+      "a": "reunite"
+    },
+    {
+      "q": "Good interaction needs:",
+      "opt": [
+        "a mess",
+        "respect",
+        "a fight",
+        "a queue"
+      ],
+      "a": "respect"
+    },
+    {
+      "q": "They fell out ___ each other.",
+      "opt": [
+        "at",
+        "on",
+        "with",
+        "for"
+      ],
+      "a": "with"
+    },
+    {
+      "q": "Choose a subject question.",
+      "opt": [
+        "Who did call yesterday?",
+        "Who did you call?",
+        "Who call yesterday?",
+        "Who called yesterday?"
+      ],
+      "a": "Who called yesterday?"
+    },
+    {
+      "q": "Choose the correct modal form.",
+      "opt": [
+        "She can help.",
+        "She can helps.",
+        "She can to help.",
+        "She can helping."
+      ],
+      "a": "She can help."
+    },
+    {
+      "q": "Choose correct advice.",
+      "opt": [
+        "You should to listen calmly.",
+        "You should listen calmly.",
+        "You should listening calmly.",
+        "You should listens calmly."
+      ],
+      "a": "You should listen calmly."
+    },
+    {
+      "q": "A relationship is a:",
+      "opt": [
+        "sports rule",
+        "type of transport",
+        "connection between people",
+        "grammar tense"
+      ],
+      "a": "connection between people"
+    },
+    {
+      "q": "Progress-test preparation should include:",
+      "opt": [
+        "only spelling",
+        "only a final score",
+        "only one topic",
+        "grammar, vocabulary, reading and listening"
+      ],
+      "a": "grammar, vocabulary, reading and listening"
+    }
+  ]
+}

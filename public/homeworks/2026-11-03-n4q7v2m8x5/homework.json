@@ -1,0 +1,294 @@
+{
+  "id": "2026-11-03-n4q7v2m8x5",
+  "date": "2026-11-03",
+  "dateLabel": "3 November 2026",
+  "title": "Friendship, Advice & Modal Verbs",
+  "subtitle": "B1 practice with friendship language, interaction vocabulary and modal verbs.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "Use modal verbs with a base verb.",
+    "Give advice and discuss friendship situations clearly."
+  ],
+  "grammar": [
+    {
+      "title": "Modal verbs",
+      "rule": "Use should, could, can, must and have to with a base verb."
+    },
+    {
+      "title": "Questions",
+      "rule": "Use correct word order in subject and object questions."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "allow",
+      "meaning": "to let someone do something"
+    },
+    {
+      "word": "respect",
+      "meaning": "to show that you value someone"
+    },
+    {
+      "word": "support",
+      "meaning": "to help or encourage someone"
+    },
+    {
+      "word": "admit",
+      "meaning": "to say something is true"
+    }
+  ],
+  "practice": [
+    {
+      "q": "Choose the correct advice.",
+      "opt": [
+        "You should call her.",
+        "You should to call her.",
+        "You should calling her."
+      ],
+      "a": "You should call her."
+    }
+  ],
+  "reading": {
+    "title": "A Difficult Conversation",
+    "text": "Two friends discuss a disagreement calmly and make an effort to keep in touch.",
+    "questions": [
+      {
+        "q": "What helps friends solve a disagreement?",
+        "opt": [
+          "Talking calmly",
+          "Shouting",
+          "Ignoring each other"
+        ],
+        "a": "Talking calmly"
+      }
+    ]
+  },
+  "listening": {
+    "title": "Relationship advice",
+    "instructions": "Use the linked B1 listening activity for relationship and advice language.",
+    "script": "External listening tasks are linked in the interactive homework.",
+    "questions": [
+      {
+        "q": "Which phrase gives advice?",
+        "opt": [
+          "You should listen.",
+          "You should to listen.",
+          "You should listening."
+        ],
+        "a": "You should listen."
+      }
+    ]
+  },
+  "writing": {
+    "prompt": "Write 90–120 words about friendship, advice or family interaction.",
+    "checklist": [
+      "Use five unit words",
+      "Use modal verbs accurately",
+      "Check your verb forms"
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Choose the correct advice.",
+      "opt": [
+        "You should call.",
+        "You should to call.",
+        "You should calling.",
+        "You calls."
+      ],
+      "a": "You should call."
+    },
+    {
+      "q": "Choose the correct modal form.",
+      "opt": [
+        "She can helps.",
+        "She can help.",
+        "She can to help.",
+        "She can helping."
+      ],
+      "a": "She can help."
+    },
+    {
+      "q": "Choose the word meaning permit.",
+      "opt": [
+        "warn",
+        "argue",
+        "allow",
+        "admit"
+      ],
+      "a": "allow"
+    },
+    {
+      "q": "After could, use:",
+      "opt": [
+        "to + verb",
+        "verb-ing",
+        "past verb",
+        "a base verb"
+      ],
+      "a": "a base verb"
+    },
+    {
+      "q": "Who ___ you?",
+      "opt": [
+        "called",
+        "did called",
+        "did call",
+        "call"
+      ],
+      "a": "called"
+    },
+    {
+      "q": "Who do you ___ on?",
+      "opt": [
+        "relied",
+        "rely",
+        "relying",
+        "relies"
+      ],
+      "a": "rely"
+    },
+    {
+      "q": "A person who helps you gives:",
+      "opt": [
+        "mess",
+        "habit",
+        "support",
+        "fight"
+      ],
+      "a": "support"
+    },
+    {
+      "q": "Choose the obligation.",
+      "opt": [
+        "We have leave now.",
+        "We to have leave now.",
+        "We having to leave now.",
+        "We have to leave now."
+      ],
+      "a": "We have to leave now."
+    },
+    {
+      "q": "To confess a mistake is to:",
+      "opt": [
+        "admit it",
+        "warn it",
+        "respect it",
+        "allow it"
+      ],
+      "a": "admit it"
+    },
+    {
+      "q": "A regular routine is a:",
+      "opt": [
+        "reunion",
+        "habit",
+        "mess",
+        "argument"
+      ],
+      "a": "habit"
+    },
+    {
+      "q": "You should not ___ at people.",
+      "opt": [
+        "shouting",
+        "to shout",
+        "shout",
+        "shouts"
+      ],
+      "a": "shout"
+    },
+    {
+      "q": "Choose a suggestion.",
+      "opt": [
+        "We could to meet later.",
+        "We could meeting later.",
+        "We meets later.",
+        "We could meet later."
+      ],
+      "a": "We could meet later."
+    },
+    {
+      "q": "To disagree angrily is to:",
+      "opt": [
+        "argue",
+        "support",
+        "remind",
+        "agree"
+      ],
+      "a": "argue"
+    },
+    {
+      "q": "Good friends ___ each other.",
+      "opt": [
+        "respects",
+        "respect",
+        "respecting",
+        "to respect"
+      ],
+      "a": "respect"
+    },
+    {
+      "q": "A warning tells someone about:",
+      "opt": [
+        "a family reunion",
+        "a synonym",
+        "a possible problem",
+        "a habit"
+      ],
+      "a": "a possible problem"
+    },
+    {
+      "q": "Choose the correct question.",
+      "opt": [
+        "Who did make the mess?",
+        "Who did the mess make?",
+        "Who makes did the mess?",
+        "Who made the mess?"
+      ],
+      "a": "Who made the mess?"
+    },
+    {
+      "q": "We ___ get together on Sunday.",
+      "opt": [
+        "could",
+        "could to",
+        "could getting",
+        "could got"
+      ],
+      "a": "could"
+    },
+    {
+      "q": "A family reunion is a:",
+      "opt": [
+        "school exam",
+        "family gathering",
+        "job interview",
+        "sports event"
+      ],
+      "a": "family gathering"
+    },
+    {
+      "q": "Choose correct negative advice.",
+      "opt": [
+        "You should not to fight.",
+        "You do not should fight.",
+        "You should not fight.",
+        "You should not fighting."
+      ],
+      "a": "You should not fight."
+    },
+    {
+      "q": "The best way to solve a disagreement is to:",
+      "opt": [
+        "shout at everyone",
+        "leave a mess",
+        "ignore every message",
+        "discuss it calmly"
+      ],
+      "a": "discuss it calmly"
+    }
+  ]
+}
