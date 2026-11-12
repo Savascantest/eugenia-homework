@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-10-m5x8q2r7v4",
+  "date": "2026-11-10",
+  "dateLabel": "10 November 2026",
+  "title": "Past Time, Stories & Revision",
+  "subtitle": "Short B1 revision of past time, stories and earlier unit vocabulary before the progress test.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "This is a revision package for the upcoming progress test.",
+    "Review past simple, past continuous, used to, time prepositions and question forms.",
+    "Consolidate earlier vocabulary; do not start a new unit."
+  ],
+  "grammar": [
+    {"title": "Past simple and irregular verbs", "rule": "Use past simple for completed actions; examples include caught, brought, kept and thought."},
+    {"title": "Past continuous", "rule": "Use was/were + verb-ing for an action in progress in the past."},
+    {"title": "Used to", "rule": "Use used to + base verb for a past habit or state that has changed."},
+    {"title": "Time prepositions", "rule": "Use at, on and in accurately; no preposition after last, this, next or every."},
+    {"title": "Question forms", "rule": "Distinguish subject questions from object questions."}
+  ],
+  "vocabulary": [
+    {"word": "conference", "meaning": "a large formal meeting"},
+    {"word": "conversation", "meaning": "a talk between people"},
+    {"word": "fellow traveller", "meaning": "another passenger"},
+    {"word": "by mistake", "meaning": "accidentally"},
+    {"word": "compartment", "meaning": "a separate area inside a train"},
+    {"word": "behaviour", "meaning": "the way a person acts"},
+    {"word": "chit-chat", "meaning": "informal small talk"},
+    {"word": "skip school", "meaning": "miss school without permission"},
+    {"word": "drop out of school", "meaning": "leave school before finishing"}
+  ],
+  "practice": [
+    {"q": "Choose the correct form: I ___ the bus yesterday.", "opt": ["catch", "caught", "was catching"], "a": "caught"},
+    {"q": "Choose the correct preposition: ___ Friday morning.", "opt": ["at", "on", "in"], "a": "on"},
+    {"q": "Choose the correct question.", "opt": ["Who called?", "Who did called?", "Who did call?"], "a": "Who called?"}
+  ],
+  "reading": {
+    "title": "The Train to the Conference",
+    "text": "A traveller enters the wrong compartment by mistake, meets a fellow traveller and gains confidence before a conference.",
+    "questions": [
+      {"q": "Why did the traveller feel nervous?", "opt": ["A first work trip alone", "A missed train", "A lost bag"], "a": "A first work trip alone"}
+    ]
+  },
+  "listening": {
+    "title": "Progress-test listening practice",
+    "instructions": "Use the linked B1 listening collection to practise main ideas, time words and key events.",
+    "script": "External listening tasks are linked in the interactive homework.",
+    "questions": [
+      {"q": "Listen first for the main idea.", "opt": ["True", "False"], "a": "True"}
+    ]
+  },
+  "writing": [
+    "Write 90–110 words about a memorable journey or meeting. Use past simple and past continuous.",
+    "Write about a past habit that has changed. Use used to and correct time expressions.",
+    "Make a short revision plan for grammar, vocabulary, listening and reading."
+  ],
+  "quiz": [
+    {"q":"Yesterday we ___ a new neighbour.","opt":["met","meet","were meeting","meets"],"a":"met"},
+    {"q":"I ___ dinner when my friend called.","opt":["made","was making","make","am making"],"a":"was making"},
+    {"q":"She used to ___ near the sea.","opt":["lived","living","live","lives"],"a":"live"},
+    {"q":"The lesson starts ___ 6 p.m.","opt":["in","on","by","at"],"a":"at"},
+    {"q":"We have English ___ Tuesday.","opt":["on","at","in","to"],"a":"on"},
+    {"q":"They moved here ___ 2020.","opt":["at","in","on","for"],"a":"in"},
+    {"q":"Who ___ the window?","opt":["did open","opening","opened","open"],"a":"opened"},
+    {"q":"Who did you ___ yesterday?","opt":["called","calling","calls","call"],"a":"call"},
+    {"q":"I ___ my phone by mistake.","opt":["took","take","was taking","takes"],"a":"took"},
+    {"q":"A fellow traveller is:","opt":["a teacher","another passenger","a relative","a neighbour"],"a":"another passenger"},
+    {"q":"They ___ when the lights went out.","opt":["talked","talk","were talking","talks"],"a":"were talking"},
+    {"q":"We do not use a preposition before:","opt":["at night","on Friday","in July","next week"],"a":"next week"},
+    {"q":"To skip school means to:","opt":["miss school without permission","finish a course","study abroad","teach a class"],"a":"miss school without permission"},
+    {"q":"Good behaviour means:","opt":["a train journey","polite actions","a school subject","a problem"],"a":"polite actions"},
+    {"q":"The past of bring is:","opt":["bringed","brang","brought","bringing"],"a":"brought"},
+    {"q":"The past of think is:","opt":["thinked","thinks","thinking","thought"],"a":"thought"},
+    {"q":"We ___ get together after school when we were young.","opt":["used to","use to","were use","are used"],"a":"used to"},
+    {"q":"Chit-chat is:","opt":["a serious exam","informal small talk","a long journey","poor behaviour"],"a":"informal small talk"},
+    {"q":"Which sentence is correct?","opt":["I keeped the ticket.","I was kept the ticket.","I kept the ticket.","I keeping the ticket."],"a":"I kept the ticket."},
+    {"q":"Progress-test preparation should include:","opt":["only a final score","only grammar","only vocabulary","grammar, vocabulary, listening and reading"],"a":"grammar, vocabulary, listening and reading"}
+  ]
+}
