@@ -13,6 +13,7 @@ import Homework20261101 from './Homework20261101';
 import Homework20261103 from './Homework20261103';
 import Homework20261106 from './Homework20261106';
 import Homework20261110 from './Homework20261110';
+import Homework20261113 from './Homework20261113';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -940,7 +941,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework15');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework16');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1021,6 +1022,9 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework16') {
+    return <Homework20261113 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework15'); window.scrollTo({top:0}); }} />;
+  }
   if (homeworkVersion === 'homework15') {
     return <Homework20261110 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework14'); window.scrollTo({top:0}); }} />;
   }
@@ -1031,10 +1035,10 @@ export default function App() {
     return <Homework20261103 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework12'); window.scrollTo({top:0}); }} />;
   }
   if (homeworkVersion === 'homework12') {
-    return <><div className="sticky top-0 z-[60] bg-slate-950 text-center p-2"><button onClick={() => { setHomeworkVersion('homework14'); window.scrollTo({top:0}); }} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold">Return to Homework 14 · Latest</button></div><Homework20261101 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework11'); window.scrollTo({top:0}); }} /></>;
+    return <><div className="sticky top-0 z-[60] bg-slate-950 text-center p-2"><button onClick={() => { setHomeworkVersion('homework16'); window.scrollTo({top:0}); }} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold">Return to Homework 16 · Latest</button></div><Homework20261101 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework11'); window.scrollTo({top:0}); }} /></>;
   }
   if (homeworkVersion === 'homework11') {
-    return <><div className="sticky top-0 z-[60] bg-slate-950 text-center p-2"><button onClick={() => { setHomeworkVersion('homework14'); window.scrollTo({top:0}); }} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold">Return to Homework 14 · Latest</button></div><Homework20261025 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework10'); window.scrollTo({top:0}); }} /></>;
+    return <><div className="sticky top-0 z-[60] bg-slate-950 text-center p-2"><button onClick={() => { setHomeworkVersion('homework16'); window.scrollTo({top:0}); }} className="px-4 py-2 rounded-xl bg-blue-600 text-white text-xs font-bold">Return to Homework 16 · Latest</button></div><Homework20261025 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework10'); window.scrollTo({top:0}); }} /></>;
   }
   if (homeworkVersion === 'homework10') {
     return <Homework20261015 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework9'); window.scrollTo({top:0}); }} />;

@@ -1,0 +1,90 @@
+{
+  "id": "2026-11-13-w8r3k6p1y4",
+  "date": "2026-11-13",
+  "dateLabel": "13 November 2026",
+  "title": "Connections, Review & Weak Ties",
+  "subtitle": "B1 revision of grammar, relationships and listening strategies, with an optional writing challenge.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "This package revises grammar and skills from the 13 November lesson.",
+    "Practise modal verbs, time prepositions, past simple and past continuous with while and when.",
+    "Use vocabulary about sociability, relationships, places and experiences in clear sentences.",
+    "The writing challenge is optional and focuses on the idea of weak ties."
+  ],
+  "grammar": [
+    {"title": "Advice and suggestions", "rule": "Use should for advice, could for a possible idea, and can for ability or possibility."},
+    {"title": "While and when", "rule": "Use while with an action in progress and when for a shorter event that happens during it."},
+    {"title": "Past simple and past continuous", "rule": "Use past simple for completed events and was/were + verb-ing for an action in progress."},
+    {"title": "Time prepositions", "rule": "Use at for times, on for days and dates, and in for months, years and longer periods."}
+  ],
+  "vocabulary": [
+    {"word": "weak tie", "meaning": "a friendly but less close social connection"},
+    {"word": "sociability", "meaning": "the ability or desire to enjoy being with people"},
+    {"word": "outsider", "meaning": "a person who feels outside a group"},
+    {"word": "get to know", "meaning": "to begin to know a person or place"},
+    {"word": "make an effort", "meaning": "to try hard to do something"},
+    {"word": "reunite", "meaning": "to meet again after time apart"},
+    {"word": "belong", "meaning": "to feel accepted as part of a group"},
+    {"word": "keep in touch", "meaning": "to continue communicating with someone"}
+  ],
+  "practice": [
+    {"q": "You ___ call a friend if you need advice.", "opt": ["should", "should to", "are should"], "a": "should"},
+    {"q": "We ___ meet for coffee after work.", "opt": ["could", "could to", "are could"], "a": "could"},
+    {"q": "I met Lina ___ a conference.", "opt": ["at", "on", "in"], "a": "at"},
+    {"q": "They moved to this city ___ 2024.", "opt": ["at", "on", "in"], "a": "in"},
+    {"q": "While I ___ for the bus, I saw an old colleague.", "opt": ["waited", "was waiting", "wait"], "a": "was waiting"},
+    {"q": "When the meeting ended, we ___ home.", "opt": ["went", "were going", "go"], "a": "went"},
+    {"q": "A weak tie can be:", "opt": ["a close relative only", "a friendly connection", "a grammar mistake"], "a": "a friendly connection"},
+    {"q": "Someone who feels outside a group may feel like an:", "opt": ["outsider", "organiser", "expert"], "a": "outsider"},
+    {"q": "Write one word: We still ___ in touch after university.", "opt": ["keep", "kept", "keeping"], "a": "keep"},
+    {"q": "Which sentence gives advice?", "opt": ["You should try a new class.", "You should to try a new class.", "You are should try a new class."], "a": "You should try a new class."}
+  ],
+  "reading": {
+    "title": "Reading: A Familiar Face at the Café",
+    "text": "Marta had recently moved to a new area and did not know many people. One Saturday, while she was waiting for coffee, she recognised a woman from her yoga class. They started talking about the class and discovered that they both enjoyed walking in the park. The woman suggested a group walk the following weekend.\n\nMarta did not expect to make a close friend immediately, but the conversation made the area feel friendlier. At the walk, she met several more people and learned their names. She realised that small connections can make it easier to belong in a new place. After the walk, she kept in touch with two people and made an effort to join another activity.",
+    "questions": [
+      {"q": "Where did Marta recognise the woman?", "opt": ["At a yoga class", "At work", "On a train"], "a": "At a yoga class"},
+      {"q": "What were they doing when they started talking?", "opt": ["Walking in the park", "Waiting for coffee", "Travelling home"], "a": "Waiting for coffee"},
+      {"q": "What did Marta learn from the experience?", "opt": ["She should move again", "Yoga classes are difficult", "Small connections can help people belong"], "a": "Small connections can help people belong"},
+      {"q": "Write the phrase meaning “continue communicating”: keep in ___.", "opt": ["place", "touch", "time"], "a": "touch"}
+    ]
+  },
+  "listening": {
+    "title": "Listening strategy: connections and main ideas",
+    "instructions": "Use a familiar B1 listening source about meeting people or social connections. Listen first for the main idea, then note one past event, one suggestion and two relationship words.",
+    "script": "The interactive homework uses listening-strategy questions so you can practise with a suitable B1 source.",
+    "questions": [
+      {"q": "On a first listen, focus on:", "opt": ["the main idea", "every individual word", "only spelling"], "a": "the main idea"},
+      {"q": "On a second listen, look for:", "opt": ["key events and relationship words", "only names", "your own opinion"], "a": "key events and relationship words"}
+    ]
+  },
+  "writing": [
+    "Optional writing challenge: write 100–120 words about a weak tie or small connection that helped someone feel welcome. Use at least two relationship words, one modal verb and one past continuous sentence.",
+    "Write a short message inviting a classmate or colleague to an activity. Include one suggestion with could or should and one time expression.",
+    "Describe a time when you met someone unexpectedly. Use while or when, past simple and past continuous."
+  ],
+  "quiz": [
+    {"q": "You ___ ask a colleague for help.", "opt": ["should", "should to", "are should", "shoulding"], "a": "should"},
+    {"q": "We ___ try a new club this week.", "opt": ["could to", "could", "are could", "coulding"], "a": "could"},
+    {"q": "I saw her ___ Monday evening.", "opt": ["at", "in", "on", "for"], "a": "on"},
+    {"q": "They met ___ 7 p.m.", "opt": ["in", "on", "for", "at"], "a": "at"},
+    {"q": "While he ___ home, he called his friend.", "opt": ["was walking", "walked", "walks", "is walking"], "a": "was walking"},
+    {"q": "When the class ended, we ___.", "opt": ["were leaving", "left", "leave", "leaving"], "a": "left"},
+    {"q": "A weak tie is usually:", "opt": ["a close family member", "a grammar rule", "a friendly connection", "a job title"], "a": "a friendly connection"},
+    {"q": "To keep in touch means to:", "opt": ["stop talking", "change jobs", "visit a museum", "continue communicating"], "a": "continue communicating"},
+    {"q": "Someone outside a group may feel like an:", "opt": ["outsider", "organiser", "expert", "neighbourhood"], "a": "outsider"},
+    {"q": "Which sentence is correct?", "opt": ["You could to call her.", "You could call her.", "You should calling her.", "You are could call her."], "a": "You could call her."},
+    {"q": "We started the course ___ September.", "opt": ["on", "at", "in", "by"], "a": "in"},
+    {"q": "She was reading ___ the phone rang.", "opt": ["while", "because", "although", "when"], "a": "when"},
+    {"q": "Which action was in progress?", "opt": ["They were talking.", "They talked yesterday.", "They will talk.", "They talk every day."], "a": "They were talking."},
+    {"q": "Make an effort means:", "opt": ["leave early", "try hard", "feel tired", "avoid people"], "a": "try hard"},
+    {"q": "Which is a suggestion?", "opt": ["You should to join.", "Could you joining?", "We could meet after work.", "We are could meet."], "a": "We could meet after work."},
+    {"q": "A person can belong to:", "opt": ["a tense", "a preposition", "a question mark", "a group"], "a": "a group"},
+    {"q": "Which question is about an action in progress?", "opt": ["What were you doing?", "What did you do?", "What do you do?", "What will you do?"], "a": "What were you doing?"},
+    {"q": "The best first-listening strategy is to find:", "opt": ["all grammar mistakes", "the main idea", "every spelling word", "one exact number"], "a": "the main idea"},
+    {"q": "Which sentence uses while correctly?", "opt": ["While I arrived, she cooked.", "While I was arriving, she cook.", "While I was cooking, she arrived.", "While I cook, she arrived."], "a": "While I was cooking, she arrived."},
+    {"q": "The optional writing challenge asks for:", "opt": ["a job application", "a list of irregular verbs", "a travel timetable", "a story about a weak tie or small connection"], "a": "a story about a weak tie or small connection"}
+  ]
+}
