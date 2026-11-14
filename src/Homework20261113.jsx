@@ -56,6 +56,11 @@ const data = {
     mc('l1', 'On a first listen, focus on:', 'the main idea', ['the main idea', 'every individual word', 'only spelling']),
     mc('l2', 'On a second listen, look for:', 'key events and relationship words', ['only names', 'key events and relationship words', 'your own opinion'])
   ],
+  listeningResource: {
+    title: 'Meeting an old friend (B1 listening)',
+    instructions: 'Listen to two old friends meeting again. Complete the preparation task, listen for the main idea, then notice how they talk about life changes, staying in touch and an invitation.',
+    url: 'https://learnenglish.britishcouncil.org/free-resources/listening/b1/meeting-old-friend'
+  },
   writing: [
     'Optional writing challenge: write 100–120 words about a weak tie or small connection that helped someone feel welcome. Use at least two relationship words, one modal verb and one past continuous sentence.',
     'Write a short message inviting a classmate or colleague to an activity. Include one suggestion with could or should and one time expression.',

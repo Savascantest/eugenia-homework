@@ -52,9 +52,10 @@
     ]
   },
   "listening": {
-    "title": "Listening strategy: connections and main ideas",
-    "instructions": "Use a familiar B1 listening source about meeting people or social connections. Listen first for the main idea, then note one past event, one suggestion and two relationship words.",
-    "script": "The interactive homework uses listening-strategy questions so you can practise with a suitable B1 source.",
+    "title": "Meeting an old friend (B1 listening)",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/listening/b1/meeting-old-friend",
+    "instructions": "Complete the preparation task, then listen to two old friends meeting again. Listen first for the main idea, then notice life changes, staying in touch and an invitation.",
+    "script": "Use the linked activity's audio and exercises before answering the strategy questions below.",
     "questions": [
       {"q": "On a first listen, focus on:", "opt": ["the main idea", "every individual word", "only spelling"], "a": "the main idea"},
       {"q": "On a second listen, look for:", "opt": ["key events and relationship words", "only names", "your own opinion"], "a": "key events and relationship words"}
