@@ -132,9 +132,9 @@ test('existing archive and hybrid BrowserProgress implementation remain present'
   const [index, app, component] = await Promise.all([
     readFile(new URL('../public/homeworks/index.json', import.meta.url), 'utf8'),
     readFile(new URL('../src/App.jsx', import.meta.url), 'utf8'),
-    readFile(new URL('../src/Homework20261117.jsx', import.meta.url), 'utf8'),
+    readFile(new URL('../src/Homework20261120.jsx', import.meta.url), 'utf8'),
   ]);
-  assert.equal(JSON.parse(index).length, 17);
+  assert.equal(JSON.parse(index).length, 18);
   assert.match(app, /eugenia_homework_v1_progress/);
-  assert.match(component, /20261117_professions_articles_17/);
+  assert.match(component, /20261120_articles_modals_18/);
 });

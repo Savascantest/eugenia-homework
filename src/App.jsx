@@ -15,6 +15,7 @@ import Homework20261106 from './Homework20261106';
 import Homework20261110 from './Homework20261110';
 import Homework20261113 from './Homework20261113';
 import Homework20261117 from './Homework20261117';
+import Homework20261120 from './Homework20261120';
 import { 
   BookOpen, PenTool, Headphones, Star, 
   CheckCircle, ArrowLeft, Eye, EyeOff, Volume2, AlertCircle,
@@ -942,7 +943,7 @@ const SECTION_COLOR_CLASSES = {
 // --- MAIN APP ---
 
 export default function App() {
-  const [homeworkVersion, setHomeworkVersion] = useState('homework17');
+  const [homeworkVersion, setHomeworkVersion] = useState('homework18');
   const [currentSection, setCurrentSection] = useState('DASHBOARD'); // DASHBOARD, grammar, vocabulary, reading, listening, quiz
   const [progress, setProgress] = useState({ grammar: false, vocabulary: false, reading: false, listening: false, quizScore: null });
   const [mistakes, setMistakes] = useState({});
@@ -1023,6 +1024,9 @@ export default function App() {
     }
   };
 
+  if (homeworkVersion === 'homework18') {
+    return <Homework20261120 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework17'); window.scrollTo({top:0}); }} />;
+  }
   if (homeworkVersion === 'homework17') {
     return <Homework20261117 darkMode={darkMode} toggleDarkMode={toggleDarkMode} onOpenPrevious={() => { setHomeworkVersion('homework16'); window.scrollTo({top:0}); }} />;
   }
