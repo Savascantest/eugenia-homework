@@ -31,7 +31,7 @@
     {"word":"software developer","meaning":"a person who creates computer programs"}
   ],
   "practice": [
-    {"q":"She is ___ architect.","opt":["a","an","the"],"a":"an"},
+    {"q":"In a careers-fair profile, complete: ‘Mila is ___ architect.’","opt":["a","an","the"],"a":"an","explanation":"Use an because architect starts with a vowel sound."},
     {"q":"A plumber repairs:","opt":["water pipes","photographs","teeth"],"a":"water pipes"},
     {"q":"Choose the correct sentence.","opt":["Chef works in a kitchen.","An chef works in a kitchen.","A chef works in a kitchen."],"a":"A chef works in a kitchen."}
   ],
@@ -45,7 +45,7 @@
     "url":"https://learnenglish.britishcouncil.org/free-resources/business/youre-hired/episode-03",
     "instructions":"Watch the interview-preparation episode. Listen first for the main purpose, then note job words, skills and responsibilities.",
     "script":"Use the linked activity's video and exercises before answering the strategy questions.",
-    "questions":[{"q":"On a second listen, note skills and responsibilities.","opt":["True","False"],"a":"True"}]
+    "questions":[{"q":"During a second watch, a learner writes down skills and responsibilities. Is this a useful strategy?","opt":["Yes","No"],"a":"Yes"}]
   },
   "writing": [
     "Write 90–120 words about a profession you find interesting. Use a, an, the and no article correctly.",
@@ -53,25 +53,25 @@
     "Write a short careers-fair dialogue with questions and answers about work."
   ],
   "quiz": [
-    {"q":"She is ___ engineer.","opt":["an","a","the","—"],"a":"an"},
-    {"q":"He is ___ chef.","opt":["an","a","the","—"],"a":"a"},
-    {"q":"___ pharmacists work with medicine.","opt":["A","The","—","An"],"a":"—"},
-    {"q":"___ dentist at this clinic is friendly.","opt":["A","An","—","The"],"a":"The"},
+    {"q":"In a staff profile, complete: ‘She is ___ engineer.’","opt":["an","a","the","—"],"a":"an","explanation":"Use an before engineer because it starts with a vowel sound."},
+    {"q":"In a restaurant review, complete: ‘He is ___ chef.’","opt":["an","a","the","—"],"a":"a","explanation":"Use a before chef because it starts with a consonant sound."},
+    {"q":"A careers guide says: ‘___ pharmacists work with medicine.’","opt":["A","The","—","An"],"a":"—","explanation":"No article is needed for pharmacists in general."},
+    {"q":"A patient says: ‘___ dentist at this clinic is friendly.’","opt":["A","An","—","The"],"a":"The","explanation":"Use the because this refers to one specific dentist."},
     {"q":"An architect designs:","opt":["buildings","medicine","newspapers","pipes"],"a":"buildings"},
     {"q":"A plumber repairs:","opt":["photographs","water pipes","teeth","software"],"a":"water pipes"},
     {"q":"A veterinarian helps:","opt":["buildings","patients only","animals","computers"],"a":"animals"},
     {"q":"A journalist writes:","opt":["medicine","meals","apps","news stories"],"a":"news stories"},
     {"q":"A photographer takes:","opt":["photographs","pills","bridges","pipes"],"a":"photographs"},
     {"q":"A pharmacist explains:","opt":["buildings","medicine","computer code","food"],"a":"medicine"},
-    {"q":"Which is correct?","opt":["Chef works in a kitchen.","An chef works in a kitchen.","A chef works in a kitchen.","The chef work in kitchen."],"a":"A chef works in a kitchen."},
+    {"q":"A restaurant is writing a staff introduction. Select the best sentence.","opt":["Chef works in a kitchen.","An chef works in a kitchen.","A chef works in a kitchen.","The chef work in kitchen."],"a":"A chef works in a kitchen.","explanation":"A singular profession needs an article, and chef takes a."},
     {"q":"A software developer creates:","opt":["news stories","photographs","medicine","computer programs"],"a":"computer programs"},
-    {"q":"Choose the correct phrase:","opt":["an architect","a architect","the architect general","architect an"],"a":"an architect"},
+    {"q":"A museum label says: ‘She was ___.’","opt":["an architect","a architect","the architect general","architect an"],"a":"an architect","explanation":"Use an before architect because it starts with a vowel sound."},
     {"q":"A dentist cares for:","opt":["pipes","teeth","animals","buildings"],"a":"teeth"},
-    {"q":"Which sentence is general?","opt":["The engineers solve every problem.","An engineers solve problems.","Engineers solve problems.","A engineer solves problems."],"a":"Engineers solve problems."},
-    {"q":"The chef is specific because:","opt":["all chefs are one person","chef has a vowel sound","it is plural","we know which chef"],"a":"we know which chef"},
+    {"q":"A school poster makes a general statement. Select the natural version.","opt":["The engineers solve every problem.","An engineers solve problems.","Engineers solve problems.","A engineer solves problems."],"a":"Engineers solve problems.","explanation":"No article is used for engineers in general."},
+    {"q":"A menu says, ‘The chef recommends the soup.’ Why is the chef specific?","opt":["all chefs are one person","chef has a vowel sound","it is plural","we know which chef"],"a":"we know which chef","explanation":"Use the when the situation makes one particular chef clear."},
     {"q":"A journalist needs:","opt":["clear questions","a pipe","a tooth","a recipe only"],"a":"clear questions"},
-    {"q":"Which article is correct?","opt":["an university teacher","a university teacher","the university teacher general","— university teacher"],"a":"a university teacher"},
-    {"q":"A clear sentence is:","opt":["Pharmacist customers helps.","A pharmacist help customers.","A pharmacist helps customers.","Pharmacist a helps customers."],"a":"A pharmacist helps customers."},
+    {"q":"A school notice says: ‘My mother is ___.’","opt":["an university teacher","a university teacher","the university teacher general","— university teacher"],"a":"a university teacher","explanation":"University begins with a /j/ sound, so it takes a."},
+    {"q":"A pharmacy website needs one clear sentence. Select it.","opt":["Pharmacist customers helps.","A pharmacist help customers.","A pharmacist helps customers.","Pharmacist a helps customers."],"a":"A pharmacist helps customers.","explanation":"The sentence uses an article, correct word order and the singular verb helps."},
     {"q":"For pronunciation, you can:","opt":["skip the word","change the job","remove all vowels","say a long word in parts"],"a":"say a long word in parts"}
   ]
 }
