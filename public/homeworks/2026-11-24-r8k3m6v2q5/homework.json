@@ -1,1 +1,321 @@
-{"id":"2026-11-24-r8k3m6v2q5","date":"2026-11-24","dateLabel":"24 November 2026","title":"Work Conditions, Skills & Modal Verbs","subtitle":"Practice work vocabulary and modal verbs in realistic situations.","policyVersion":"eugenia-lesson-based@1","templateContractVersion":"eugenia-interactive-hybrid@1","assessmentPolicyVersion":"eugenia-section-and-final-checks@1","lessonNotes":["Review work arrangements and workplace rules."],"grammar":[{"title":"Work rules","rule":"Have to and must show a requirement; don’t have to shows something optional; mustn’t shows a prohibition."}],"vocabulary":[{"word":"ambitious","meaning":"wanting to achieve success"},{"word":"reliable","meaning":"able to be trusted"}],"practice":[{"q":"A workplace notice says: ‘You ___ wear a badge.’","opt":["have to","mustn’t","don’t have to"],"a":"have to"}],"reading":{"title":"A Flexible Team","text":"A team uses flexible hours and clear deadlines.","questions":[{"q":"What must remote workers do?","opt":["Meet deadlines","Work every night","Commute daily"],"a":"Meet deadlines"}]},"listening":{"title":"A morning briefing","url":"https://learnenglish.britishcouncil.org/free-resources/listening/a2/a-morning-briefing","instructions":"Listen for work tasks and key details.","script":"Use the linked activity.","questions":[{"q":"On a second listen, note work rules and key details.","opt":["Yes","No"],"a":"Yes"}]},"writing":["Write a workplace message about required and optional tasks."],"quiz":[{"q":"You ___ wear a badge.","opt":["have to","mustn’t","don’t have to","must"],"a":"have to"},{"q":"Friday work is optional.","opt":["must work","don’t have to come","mustn’t come","have to come"],"a":"don’t have to come"},{"q":"You ___ share a password.","opt":["must","have to","mustn’t","can"],"a":"mustn’t"},{"q":"We ___ finish the urgent report.","opt":["don’t have to","mustn’t","can","must"],"a":"must"},{"q":"A reliable worker can:","opt":["meet a deadline","miss meetings","avoid tasks","ignore clients"],"a":"meet a deadline"},{"q":"A team player works with:","opt":["machines","others","only managers","nobody"],"a":"others"},{"q":"A fast learner understands software:","opt":["never","slowly","quickly","only at home"],"a":"quickly"},{"q":"Time management helps you:","opt":["sleep","ignore work","avoid teams","plan tasks"],"a":"plan tasks"},{"q":"A degree is from:","opt":["university","a gym","a bus","a shop"],"a":"university"},{"q":"Volunteer work builds:","opt":["overtime","experience","commuting","sick leave"],"a":"experience"},{"q":"An ambitious person wants to:","opt":["avoid learning","miss work","develop a career","leave early"],"a":"develop a career"},{"q":"Remote work means work:","opt":["at night","on a train","in a kitchen","from home"],"a":"from home"},{"q":"Staff ___ work overtime every day.","opt":["don’t have to","must","mustn’t","have to"],"a":"don’t have to"},{"q":"A correct rule is:","opt":["You mustn’t to leave equipment.","You mustn’t leave equipment here.","You mustn’t leaving equipment.","You mustn’t leaves equipment."],"a":"You mustn’t leave equipment here."},{"q":"A suggestion is:","opt":["We could to meet.","We could meeting.","We could meet after lunch.","We could meets."],"a":"We could meet after lunch."},{"q":"A plumber repairs:","opt":["computers","newspapers","degrees","water pipes"],"a":"water pipes"},{"q":"Fluent in English means:","opt":["speak it easily","avoid it","only write it","translate every word"],"a":"speak it easily"},{"q":"A decisive manager can:","opt":["work alone","make a clear choice","miss deadlines","avoid decisions"],"a":"make a clear choice"},{"q":"Sick leave is time away because:","opt":["you commute","you volunteer","you are ill","you interview"],"a":"you are ill"},{"q":"First, listen for:","opt":["every word","a grammar term","every number","the main idea"],"a":"the main idea"}]}
+{
+  "id": "2026-11-24-r8k3m6v2q5",
+  "date": "2026-11-24",
+  "dateLabel": "24 November 2026",
+  "title": "Work Conditions, Skills & Modal Verbs",
+  "subtitle": "Practice work vocabulary and modal verbs in realistic situations.",
+  "policyVersion": "eugenia-lesson-based@1",
+  "templateContractVersion": "eugenia-interactive-hybrid@1",
+  "assessmentPolicyVersion": "eugenia-section-and-final-checks@1",
+  "lessonNotes": [
+    "Review work arrangements and workplace rules."
+  ],
+  "grammar": [
+    {
+      "title": "Work rules",
+      "rule": "Have to and must show a requirement; don’t have to shows something optional; mustn’t shows a prohibition."
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "ambitious",
+      "meaning": "wanting to achieve success"
+    },
+    {
+      "word": "reliable",
+      "meaning": "able to be trusted"
+    }
+  ],
+  "practice": [
+    {
+      "q": "A workplace notice says: ‘You ___ wear a badge.’",
+      "opt": [
+        "have to",
+        "mustn’t",
+        "don’t have to"
+      ],
+      "a": "have to"
+    }
+  ],
+  "reading": {
+    "title": "A Flexible Team",
+    "text": "A team uses flexible hours and clear deadlines.",
+    "questions": [
+      {
+        "q": "What must remote workers do?",
+        "opt": [
+          "Meet deadlines",
+          "Work every night",
+          "Commute daily"
+        ],
+        "a": "Meet deadlines"
+      }
+    ]
+  },
+  "listening": {
+    "title": "A morning briefing",
+    "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/a-morning-briefing",
+    "instructions": "Listen for work tasks and key details.",
+    "script": "Use the linked activity.",
+    "questions": [
+      {
+        "q": "On a second listen, note work rules and key details.",
+        "opt": [
+          "Yes",
+          "No"
+        ],
+        "a": "Yes"
+      }
+    ]
+  },
+  "writing": [
+    "Write a workplace message about required and optional tasks.",
+    "Write a short interview profile using skills and experience vocabulary."
+  ],
+  "quiz": [
+    {
+      "q": "You ___ wear a badge.",
+      "opt": [
+        "have to",
+        "mustn’t",
+        "don’t have to",
+        "must"
+      ],
+      "a": "have to"
+    },
+    {
+      "q": "Friday work is optional.",
+      "opt": [
+        "must work",
+        "don’t have to come",
+        "mustn’t come",
+        "have to come"
+      ],
+      "a": "don’t have to come"
+    },
+    {
+      "q": "You ___ share a password.",
+      "opt": [
+        "must",
+        "have to",
+        "mustn’t",
+        "can"
+      ],
+      "a": "mustn’t"
+    },
+    {
+      "q": "We ___ finish the urgent report.",
+      "opt": [
+        "don’t have to",
+        "mustn’t",
+        "can",
+        "must"
+      ],
+      "a": "must"
+    },
+    {
+      "q": "Derya checks every detail and sends her work by the agreed date. She is:",
+      "a": "reliable",
+      "opt": [
+        "reliable",
+        "on sick leave",
+        "a commuter",
+        "late"
+      ]
+    },
+    {
+      "q": "During a busy project, Omar listens to colleagues and helps them solve problems. Omar is:",
+      "a": "a team player",
+      "opt": [
+        "a plumber",
+        "a team player",
+        "on leave",
+        "a passenger"
+      ]
+    },
+    {
+      "q": "On her first day, Aylin learns the new booking system very quickly. She is:",
+      "a": "a fast learner",
+      "opt": [
+        "an overtime rule",
+        "a deadline",
+        "a fast learner",
+        "a shift"
+      ]
+    },
+    {
+      "q": "Leo writes a plan for the day so he can finish three tasks on time. This shows good:",
+      "a": "time management",
+      "opt": [
+        "sick leave",
+        "commuting",
+        "shift work",
+        "time management"
+      ]
+    },
+    {
+      "q": "In an interview, Mina says she completed university training in engineering. She has:",
+      "a": "a degree",
+      "opt": [
+        "a degree",
+        "a bus pass",
+        "a shift",
+        "overtime"
+      ]
+    },
+    {
+      "q": "Before her first job, Ece helped at an animal shelter without pay. This gave her:",
+      "a": "volunteer experience",
+      "opt": [
+        "sick leave",
+        "volunteer experience",
+        "a commute",
+        "overtime"
+      ]
+    },
+    {
+      "q": "Kerem takes extra courses because he wants to lead a team one day. He is:",
+      "a": "ambitious",
+      "opt": [
+        "on leave",
+        "unreliable",
+        "ambitious",
+        "late"
+      ]
+    },
+    {
+      "q": "On Tuesdays, Fatma works from her own home instead of travelling to the office. She is:",
+      "a": "working remotely",
+      "opt": [
+        "commuting",
+        "on sick leave",
+        "doing shift work",
+        "working remotely"
+      ]
+    },
+    {
+      "q": "The company policy says staff can choose whether to work late. They ___ work overtime every day.",
+      "a": "don’t have to",
+      "opt": [
+        "don’t have to",
+        "must",
+        "mustn’t",
+        "have"
+      ]
+    },
+    {
+      "q": "At the warehouse, the supervisor tells Ali: “Do not leave equipment in the corridor.” Ali:",
+      "a": "mustn’t leave equipment in the corridor",
+      "opt": [
+        "must leave equipment in the corridor",
+        "mustn’t leave equipment in the corridor",
+        "doesn’t have to leave equipment in the corridor",
+        "should leave equipment in the corridor"
+      ]
+    },
+    {
+      "q": "Your team needs to suggest a meeting after lunch. Which message does this?",
+      "a": "We could meet after lunch.",
+      "opt": [
+        "We meet after lunch.",
+        "We met after lunch.",
+        "We could meet after lunch.",
+        "We are meeting after lunch."
+      ]
+    },
+    {
+      "q": "The kitchen sink is leaking, so the office manager calls someone to repair the water pipes. She calls:",
+      "a": "a plumber",
+      "opt": [
+        "a degree",
+        "a commuter",
+        "a volunteer",
+        "a plumber"
+      ]
+    },
+    {
+      "q": "At an interview, Elena answers questions confidently in English without translating every sentence. She is:",
+      "a": "fluent in English",
+      "opt": [
+        "fluent in English",
+        "on shift",
+        "in overtime",
+        "on leave"
+      ]
+    },
+    {
+      "q": "Two suppliers offer different prices. The manager compares them and makes a clear choice quickly. She is:",
+      "a": "decisive",
+      "opt": [
+        "unreliable",
+        "decisive",
+        "on sick leave",
+        "a commuter"
+      ]
+    },
+    {
+      "q": "Arda has the flu, so his doctor tells him to stay home for three days. He is on:",
+      "a": "sick leave",
+      "opt": [
+        "a deadline",
+        "a commute",
+        "sick leave",
+        "flexible hours"
+      ]
+    },
+    {
+      "q": "Before listening to a workplace conversation for the first time, you should focus on:",
+      "a": "the main idea",
+      "opt": [
+        "every single word",
+        "a grammar label",
+        "every number",
+        "the main idea"
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "title": "A Flexible Team",
+      "text": "A team uses flexible hours and clear deadlines.",
+      "questions": [
+        {
+          "q": "What must remote workers do?",
+          "opt": [
+            "Meet deadlines",
+            "Work every night",
+            "Commute daily"
+          ],
+          "a": "Meet deadlines"
+        }
+      ]
+    },
+    {
+      "title": "Building Experience",
+      "text": "Amir has a degree in engineering and did volunteer work before applying for a job. At an interview, he describes his experience clearly and explains that he is a team player and a fast learner.",
+      "questions": [
+        {
+          "q": "What did Amir do before applying?",
+          "a": "Volunteer work",
+          "opt": [
+            "Volunteer work",
+            "Daily overtime",
+            "Night commuting"
+          ]
+        }
+      ]
+    }
+  ],
+  "listeningResources": [
+    {
+      "title": "A morning briefing",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/a-morning-briefing",
+      "instructions": "Listen for workplace tasks, times and instructions."
+    },
+    {
+      "title": "Four conversations",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/listening/a2/four-conversations",
+      "instructions": "Listen to Conversation A about a work interview and note job details."
+    }
+  ]
+}
